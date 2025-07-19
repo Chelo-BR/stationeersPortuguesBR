@@ -6,6 +6,8 @@ Para utilizar a tradução, siga os passos abaixo para substituir os arquivos or
 
 Navegue até a pasta de instalação do Stationeers, geralmente localizada em:
 C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language
+Porém, esse caminho pode variar dependendo do local onde você instalou o jogo no seu computador. 
+Portanto, se você instalou o Stationeers em outra unidade ou pasta, procure a pasta StreamingAssets\Language dentro da pasta onde o jogo está instalado.
 
 Faça backup dos arquivos originais dessa pasta, para que você possa restaurá-los caso seja necessário.
 
