@@ -1,9 +1,9 @@
-﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Português (Brasil)</Name>
   <Code>PB</Code>
   <Font>font_english</Font>
-  <!--Traducao Chelo_BR 29 06 2025-->
-  <ScreenSpaceToolTips>
+  <!-- TRADUCAO PORTUGUES BRASIL POR CHELO_BR EM 27/09/2025 Versao 26060-->
+    <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
       <Value>Toxinas</Value>
@@ -22,7 +22,7 @@
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
-      <Value>Hidratação baixa</Value>
+      <Value>Hidratação Baixa</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
@@ -42,11 +42,11 @@
     </Record>
     <Record>
       <Key>StatusIconOxygenDesc</Key>
-      <Value>A atmosfera que você está respirando está causando danos aos seus pulmões.</Value>
+      <Value>A atmosfera que você respira está causando danos aos seus pulmões.</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenWarning</Key>
-      <Value>O tanque do Suit está ficando baixo e precisa de atenção</Value>
+      <Value>O tanque do traje está ficando baixo e precisa de atenção</Value>
     </Record>
     <Record>
       <Key>StatusIconOxyegnCritical</Key>
@@ -78,15 +78,15 @@
     </Record>
     <Record>
       <Key>StatusIconTempuratureWarning</Key>
-      <Value>Exibe o nível atual de toxicidade</Value>
+      <Value>Aviso de temperatura do traje</Value>
     </Record>
     <Record>
       <Key>StatusIconTempuratureCritical</Key>
-      <Value>Exibe o nível atual de toxicidade</Value>
+      <Value>Temperatura do traje critica</Value>
     </Record>
     <Record>
       <Key>StatusIconLeakingName</Key>
-      <Value>Vazamento do traje</Value>
+      <Value>O traje está vazando</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerName</Key>
@@ -114,7 +114,7 @@
     </Record>
     <Record>
       <Key>StatusIconInternalsName</Key>
-      <Value>Alternar capacete aberto/fechado</Value>
+      <Value>Abrir/Fechar Capacete</Value>
     </Record>
     <Record>
       <Key>StatusIconHandPowerName</Key>
@@ -134,11 +134,11 @@
     </Record>
     <Record>
       <Key>StatusIconAirTankName</Key>
-      <Value>Capacidade atual do AirTank</Value>
+      <Value>Capacidade atual do Tanque de Ar</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningName</Key>
-      <Value>Propulsor Jetpack</Value>
+      <Value>Propulsor de Jetpack</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningDesc</Key>
@@ -161,6 +161,10 @@
       <Value>Saúde Atual</Value>
     </Record>
     <Record>
+      <Key>StatusIconHealthDesc</Key>
+      <Value>A saúde está baixa</Value>
+    </Record>
+    <Record>
       <Key>StatusIconHydrationName</Key>
       <Value>Hidratação Atual</Value>
     </Record>
@@ -178,7 +182,15 @@
     </Record>
 	<Record>
       <Key>DeconstructCanisterFull</Key>
-      <Value>Não é possível desconstruir. O recipiente precisa estar vazio</Value>
+      <Value>Não é possível desconstruir. O recipiente precisa estar vazio.</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeavingAreaName</Key>
+      <Value>Saindo da Área da Missão</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeavingAreaDesc</Key>
+      <Value>Fora dos limites, vire-se</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>
