@@ -1,9 +1,13 @@
-﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Português (Brasil)</Name>
   <Code>PB</Code>
   <HelpPage>
-    <!-- Traducao Marcelo "Chelo_BR" 12/07/25 -->  
-
+    <!-- TRADUCAO PORTUGUES BRASIL POR CHELO_BR EM 27/09/2025 Versao 26060-->  
+<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    --> 
     <StationpediaPage>
     <!--DEIXE ISTO SOZINHO, NECESSÁRIO PARA ESSAS PÁGINAS-->
       <Key>Home</Key>
