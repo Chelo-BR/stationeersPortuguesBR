@@ -16210,7 +16210,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>NetworkAnalyserActual</Key>
-      <Value>ATUAL</Value>
+      <Value>  ATUAL</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserPotential</Key>
@@ -16218,7 +16218,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>NetworkAnalyserDevices</Key>
-      <Value>DISPOSITIVOS</Value>
+      <Value>APARELHOS</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserRequired</Key>
