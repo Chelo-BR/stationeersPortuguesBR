@@ -2043,7 +2043,7 @@ A saída de esteira é uma abertura por onde os itens deixam as redes de {LINK:I
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight3</Key>
-      <Value>Esteira (Reta 3))</Value>
+      <Value>Esteira (Reta 3)</Value>
       <Description>As esteiras funcionam como tubos para itens. Use-as para conectar diversos equipamentos de {LINK:ImportExportPage;importação/exportação}, como a {THING:StructureVendingMachine} e impressoras como o {THING:StructureAutolathe}.
 		O objetivo de qualquer {LINK:Stationeers;Stationeer} é tornar a sobrevivência fora do mundo um pouco menos difícil para si e para aqueles que seguirão seus passos.
 		As esteiras são componentes fundamentais das redes de esteiras, que permitem o transporte de itens entre qualquer máquina ou dispositivo com uma porta de {LINK:ImportExportPage;importação/exportação}.</Description>
