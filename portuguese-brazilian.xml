@@ -28013,6 +28013,250 @@ Status: {LOCAL:StatusValue}</Value>
       <Key>CancelLoadButton</Key>
       <Value>Cancelar</Value>
     </Record>
+	<Record>
+      <Key>LandingGear</Key>
+      <Value>Trem de Pouso</Value>
+    </Record>
+    <Record>
+      <Key>Activate</Key>
+      <Value>Ativar</Value>
+    </Record>
+    <Record>
+      <Key>Deactivate</Key>
+      <Value>Desativar</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionStackSize</Key>
+      <Value>Retorna o tamanho da pilha da memória interna do dispositivo.</Value>
+    </Record>
+    <Record>
+      <Key>CantEquipThisBackpack</Key>
+      <Value>{LOCAL:InvalidItem} não pode ser equipado enquanto estiver usando {LOCAL:CurrentlyEquipped}</Value>
+    </Record>
+    <Record>
+      <Key>ProportionalGainDescription</Key>
+      <Value>O ganho proporcional do controlador PID. Este valor determina quão agressivamente o controlador responde ao erro entre o ponto de ajuste e a variável do processo. Um valor mais alto resulta em uma resposta mais rápida, mas pode causar ultrapassagem ou instabilidade.</Value>
+    </Record>
+    <Record>
+      <Key>IntegralGainDescription</Key>
+      <Value>O ganho integral do controlador PID. Este valor determina quanto o controlador responde ao erro acumulado ao longo do tempo. Um valor mais alto pode ajudar a eliminar erros em regime permanente, mas também pode causar oscilações ou instabilidade.</Value>
+    </Record>
+    <Record>
+      <Key>DerivativeGainDescription</Key>
+      <Value>O ganho derivativo do controlador PID. Este valor determina quanto o controlador responde à taxa de variação do erro. Um valor mais alto pode ajudar a amortecer oscilações e melhorar a estabilidade, mas também pode amplificar ruídos.</Value>
+    </Record>
+    <Record>
+      <Key>ResetDescription</Key>
+      <Value>Redefine o estado interno do controlador PID, limpando qualquer erro acumulado e reiniciando a saída para zero. Isso é útil para começar do zero ou se recuperar de um estado instável.</Value>
+    </Record>
+    <Record>
+      <Key>SetpointDescription</Key>
+      <Value>O valor desejado que o controlador PID busca atingir. Este é o valor-alvo da variável do processo, e o controlador ajustará sua saída para minimizar a diferença entre o ponto de ajuste e a variável do processo.</Value>
+    </Record>
+    <Record>
+      <Key>MinimumDescription</Key>
+      <Value>Valor mínimo para o dispositivo lógico fornecido.</Value>
+    </Record>
+    <Record>
+      <Key>NetworkFaultDescription</Key>
+      <Value>A rede conectada está apresentando uma falha, como um rompimento de tubulação ou outro tipo de defeito.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionMaturityRatio</Key>
+      <Value>Indica o quão próxima a planta está da maturidade, representada como uma fração entre 0 e 1, sendo 1 o ponto em que está madura e pronta para a colheita.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSeedingRatio</Key>
+      <Value>Indica o quão próxima a planta está da fase de produção de sementes, representada como uma fração entre 0 e 1, sendo 1 o ponto em que está produzindo sementes e irá fornecê-las quando colhida.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvl</Key>
+      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de carregamento do tipo lógico especificado..</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvs</Key>
+      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de armazenamento do tipo lógico especificado.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionPow</Key>
+      <Value>Armazena no registrador o resultado de elevar “a” à potência de “b”. Segue o padrão IEEE-754 para aritmética de ponto flutuante.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionExt</Key>
+      <Value>Extrai um campo de bits de “a”, começando em “b” e com comprimento “c”, colocando o resultado no registrador especificado. A carga útil não pode exceder 53 bits de comprimento final.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionIns</Key>
+      <Value>Insere um campo de bits de “a” no registrador especificado, começando em “b” e com comprimento “c”. A carga útil não pode exceder 53 bits de comprimento final.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionLerp</Key>
+      <Value>Interpola linearmente entre “a” e “b” pela razão “c” e coloca o resultado no registrador indicado. A razão “c” será limitada entre 0 e 1.</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherState</Key>
+      <Value>Status do Triturador de Gelo</Value>
+    </Record>
+    <Record>
+      <Key>InternalAtmosphere</Key>
+      <Value>Atmosfera Interna</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherSetting</Key>
+      <Value>Aquecerá se estiver abaixo de {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeater</Key>
+      <Value>Elemento de Aquecimento</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeating</Key>
+      <Value>Operação desacelerada enquanto aquece até a temperatura alvo de {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorHeat</Key>
+      <Value>Aquecendo</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorIdle</Key>
+      <Value>Ocioso</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherAtmosFull</Key>
+      <Value>A Atmosfera Interna está Cheia</Value>
+    </Record>
+    <Record>
+      <Key>BreathingAtmosphere</Key>
+      <Value>Atmosfera do Ocupante</Value>
+    </Record>
+    <Record>
+      <Key>CryogenicLiquid</Key>
+      <Value>Líquido Criogênico</Value>
+    </Record>
+    <Record>
+      <Key>NotPureLiquidNitrogen</Key>
+      <Value>O líquido não é Nitrogênio Líquido puro</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidVolumeTooLow</Key>
+      <Value>O volume do líquido criogênico deve estar acima de {LOCAL:Volume}</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidTemperatureTooHigh</Key>
+      <Value>O líquido criogênico deve estar abaixo de {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillRevive</Key>
+      <Value>Regenerará pacientes falecidos</Value>
+    </Record>
+    <Record>
+      <Key>CryoState</Key>
+      <Value>Status Criogênico</Value>
+    </Record>
+    <Record>
+      <Key>SleeperState</Key>
+      <Value>Status do Dormitório</Value>
+    </Record>
+    <Record>
+      <Key>SleeperMetabolicSuspension</Key>
+      <Value>Suspensão Metabólica Ativa</Value>
+    </Record>
+    <Record>
+      <Key>SleeperDoorIsOpen</Key>
+      <Value>Operação desativada enquanto a porta estiver aberta</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillHeal</Key>
+      <Value>Curará pacientes feridos</Value>
+    </Record>
+    <Record>
+      <Key>Vacuum</Key>
+      <Value>Vácuo</Value>
+    </Record>
+    <Record>
+      <Key>Null</Key>
+      <Value>Nulo</Value>
+    </Record>
+    <Record>
+      <Key>VehicleIsNotDamaged</Key>
+      <Value>{LOCAL:Rover} não está danificado</Value>
+    </Record>
+    <Record>
+      <Key>PatchingRecipe</Key>
+      <Value>{LOCAL:ModName} está ajustando a receita para {LOCAL:PrefabName}</Value>
+    </Record>
+    <Record>
+      <Key>UnknownMod</Key>
+      <Value>Desconhecido</Value>
+    </Record>
+    <Record>
+      <Key>ActionRepairRover</Key>
+      <Value>Reparar Veículo</Value>
+    </Record>
+    <Record>
+      <Key>SlotVacant</Key>
+      <Value>Vago</Value>
+    </Record>
+    <Record>
+      <Key>SlotOccupant</Key>
+      <Value>Ocupante</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotForSpecies</Key>
+      <Value>O dispositivo não pode ser ocupado por {LOCAL:Species}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotConstructed</Key>
+      <Value>{LOCAL:Thing} não foi totalmente construído</Value>
+    </Record>
+    <Record>
+      <Key>DevicePressureTooHigh</Key>
+      <Value>{LOCAL:Thing} excede sua pressão interna máxima</Value>
+    </Record>
+    <Record>
+      <Key>RocketGasCollectActionInfo</Key>
+      <Value>Coletor: {LOCAL:OnOff}, Próxima Coleta: {LOCAL:Yield}</Value>
+    </Record>
+    <Record>
+      <Key>CryoAtmosphereIsUnsafe</Key>
+      <Value>A atmosfera respirável está insegura</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoAtmosphericInput</Key>
+      <Value>Sem rede de gás respirável</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoLiquidInput</Key>
+      <Value>Sem rede de líquido criogênico</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionData</Key>
+      <Value>Inclui {LOCAL:Value} de dados</Value>
+    </Record>
+    <Record>
+      <Key>RegionName</Key>
+      <Value>Região: {LOCAL:Name}</Value>
+    </Record>
+    <Record>
+      <Key>OldSaveDetected</Key>
+      <Value>1 arquivo de salvamento antigo detectado</Value>
+    </Record>
+    <Record>
+      <Key>OldSavesDetected</Key>
+      <Value>{LOCAL:Count} arquivos de salvamento antigos detectados</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSave</Key>
+      <Value>Tem certeza de que deseja excluir 1 arquivo de salvamento antigo?</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSaves</Key>
+      <Value>Tem certeza de que deseja excluir {LOCAL:Count} arquivos de salvamento antigos?</Value>
+    </Record>
+    <Record>
+      <Key>SuitOperatingRangeText</Key>
+      <Value>{LOCAL:Minimum} até {LOCAL:Maximum}</Value>
+    </Record>	  
   </GameStrings>
   <GameTip />
 </Language>
