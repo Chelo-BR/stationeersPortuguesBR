@@ -4045,6 +4045,7 @@ Observe que os transformadores também atuam como isoladores de dados, impedindo
     <RecordThing>
       <Key>CartridgeConfiguration</Key>
       <Value>Cartucho (Configuração)</Value>
+	  <Description>Com esse cartucho você tem informações de qualquer equipamento, basta utilizar no Tablet e apontar para o equipamento que deseja obter as informações. </Description>	
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrate</Key>
@@ -16562,7 +16563,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>ScriptCommandBge</Key>
-      <Value>Desvio para a linha c se &gt;= b</Value>
+      <Value>Desvio para a linha c se a &gt;= b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeq</Key>
