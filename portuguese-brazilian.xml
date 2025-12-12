@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Traducao Marcelo 17/10/2025 versao 26176-->
+  <Code>PB</Code>  <!--Traducao Marcelo 11/12/2025 versao 26682-->
+
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -14,6 +15,11 @@
       <Unit>ml</Unit>
     </RecordReagent>
     <RecordReagent>
+	  <Key>Cheese</Key>
+	  <Value>Queijo</Value>
+	  <Unit>g</Unit>
+	</RecordReagent>
+	<RecordReagent>
       <Key>Egg</Key>
       <Value>Ovo</Value>
       <Unit />
@@ -566,7 +572,6 @@ Basta parafusá-lo em uma {THING:StructureBench} usando uma {THING:ItemWrench} p
 	  <Value>Parte do Corpo - Perna Direita de Astronauta (Feminino)</Value>
 	  <Description>Esta é a perna direita de uma mulher. Pelo estado dela, parecia estar com boa saúde, altura mediana e tendência a caminhar na ponta dos pés.</Description>
 	</RecordThing>
-
     <RecordThing>
 	  <Key>BodyPartAstronautFemaleTorso</Key>
 	  <Value>Parte do Corpo - Tronco de Astronauta (Feminino)</Value>
@@ -841,8 +846,7 @@ Basta parafusá-lo em uma {THING:StructureBench} usando uma {THING:ItemWrench} p
 	  <Key>CircuitboardAirlockControl</Key>
 	  <Value>Câmara de Ar</Value>
 	  <Description>Diz a lenda que foi primeiro rabiscada na parede de um banheiro da {LINK:Norsec;Norsec} por um engenheiro insatisfeito, mas a placa de circuito de controle de câmara de ar Exgress conquistou seu espaço graças à versatilidade e facilidade de fabricação, tornando-se o sistema de controle preferido dos {LINK:Stationeers;Stationeers} para protocolos de ciclo de {THING:StructureAirlock}.
-
-	Para entrar no modo de configuração, insira a placa em uma {THING:StructureConsole} junto com um disco de dados. Nesse modo, você verá todos os objetos acessíveis via dados conectados ao {THING:StructureConsole}. Portas, luzes, sensores de gás e consoles subordinados podem ser selecionados (destacados em verde) e passarão a ser controlados assim que o disco de dados for removido.</Description>
+Para entrar no modo de configuração, insira a placa em uma {THING:StructureConsole} junto com um disco de dados. Nesse modo, você verá todos os objetos acessíveis via dados conectados ao {THING:StructureConsole}. Portas, luzes, sensores de gás e consoles subordinados podem ser selecionados (destacados em verde) e passarão a ser controlados assim que o disco de dados for removido.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>ImGuiCircuitboardAirlockControl</Key>
@@ -960,7 +964,7 @@ Você pode reabastecer um {THING:ItemGasCanisterWater} conectando-o à seção l
 	<RecordThing>
 	  <Key>DynamicLiquidCanisterEmpty</Key>
 	  <Value>Tanque de Líquido Portátil</Value>
-	  <Description>Este tanque portátil armazena apenas líquido. Você pode parafusá-lo em um {THING:ItemTankConnectorLiquid} usando uma {THING:ItemWrench}, e então conectá-lo a uma rede de tubos para reabastecê-lo. Você pode reabastecer um {THING:ItemGasCanisterWater} conectando-o à seção listrada do tanque. Ou pode usar uma {THING:ItemWrench} para conectá-lo a um foguete, levá-lo para um lugar distante e seco, e então se sentir bem consigo mesmo.</Description>
+	  <Description>Este tanque portátil armazena apenas líquido. Você pode parafusá-lo em um {THING:StructurePortablesConnector} usando uma {THING:ItemWrench}, e então conectá-lo a uma rede de tubos para reabastecê-lo. Você pode reabastecer um {THING:ItemGasCanisterWater} conectando-o à seção listrada do tanque. Ou pode usar uma {THING:ItemWrench} para conectá-lo a um foguete, levá-lo para um lugar distante e seco, e então se sentir bem consigo mesmo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>DynamicGenerator</Key>
@@ -1036,8 +1040,8 @@ Você pode reabastecer um {THING:ItemGasCanisterWater} conectando-o à seção l
 	  <Value>Célula de Bateria (Pequena)</Value>
 	  <Description>Baseada em um design pioneiro do início do século XXI, a célula de bateria pequena é a unidade básica de energia elétrica portátil do {LINK:Stationeers;Stationeer}. Embora não tenha a mesma carga de uma {THING:ItemBatteryCellLarge} ou de uma {THING:ItemBatteryCellNuclear}, ela tem a humilde vantagem de ser fabricada com recursos básicos.
 
-	{HEADER:POWER OUTPUT}
-	A célula pequena armazena até 36000 watts de energia.</Description>
+{HEADER:POWER OUTPUT}
+A célula pequena armazena até 36000 watts de energia.</Description>
 	</RecordThing>
     <RecordThing>
 	  <Key>ItemBatteryCellLarge</Key>
@@ -1117,7 +1121,7 @@ A bobina normal suporta até 5 kW. Para aplicações de maior corrente, utilize 
 	  <Value>Pé-de-cabra</Value>
 	  <Description>O pé-de-cabra de entrada da {LINK:Recurso;Recurso} é útil em uma variedade de situações cotidianas de um {LINK:Stationeers;Stationeer}, desde abrir {THING:StructureAreaPowerControl}s e {THING:StructureAirlock}s sem energia, até esmagar caranguejos interdimensionais, caso seja necessário.</Description>
 	</RecordThing>
- <RecordThing>
+	<RecordThing>
 	  <Key>ItemDataDisk</Key>
 	  <Value>Disco de Dados</Value>
 	  <Description />
@@ -1193,7 +1197,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
       <Value>Açúcar</Value>
       <Description />
     </RecordThing>
-     <RecordThing>
+	<RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
       <Value>Cilindro (CO2)</Value>
       <Description />
@@ -1242,7 +1246,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
 	  <Description>Dada a obsessão da humanidade por exalar {GAS:CarbonDioxide}, todos os {LINK:Stationeers;Stationeers} recebem dois {LINK:Sinotai;Sinotai} {GAS:CarbonDioxide} {SLOT:GasFilter} básicos como parte do kit padrão de implantação (SDK). Esses filtros permitem a passagem do {GAS:CarbonDioxide} para o {THING:ItemGasCanisterEmpty} de resíduos do traje, mas também são componentes essenciais do {THING:DynamicScrubber} e da {THING:StructureFiltration}. Os modelos {THING:ItemGasFilterCarbonDioxideM} e {THING:ItemGasFilterCarbonDioxideL} também estão disponíveis.</Description>
 	</RecordThing>
     <RecordThing>
-      <Key>ItemGasFilterPollutants</Key>
+     <Key>ItemGasFilterPollutants</Key>
       <Value>Filtro (Poluentes)</Value>
       <Description>Filtros são usados para capturar diversos gases, como as emissões residuais de um {THING:StructureFurnace} ou {THING:StructureArcFurnace}. Ao adicionar filtros {LINK:Sinotai;Sinotai}-projetados para {GAS:Pollutant} em um {THING:ItemDynamicScrubber}, é possível isolar esse gás e direcioná-lo para uma rede de tubulação, aproveitando suas excelentes propriedades de refrigeração em um {THING:StructureWallCooler}. Tente não inalar.</Description>
     </RecordThing>
@@ -1294,12 +1298,12 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     <RecordThing>
       <Key>ItemGoldIngot</Key>
       <Value>Lingote (Ouro)</Value>
-      <Description>Há um paradoxo duradouro no coração do projeto {LINK:Stationeers;Stationeers}: uma iniciativa concebida como "exploração espacial de baixo custo" utiliza {REAGENT:Gold} como ingrediente fundamental na fabricação de grande parte de seu equipamento e material.</Description>
+      <Description>Há um paradoxo duradouro no coração do projeto {LINK:Stationeers;Stationeers}: uma iniciativa concebida como "exploração espacial de baixo custo" utiliza {REAGENT:Ouro} como ingrediente fundamental na fabricação de grande parte de seu equipamento e material.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldOre</Key>
       <Value>Minério (Ouro)</Value>
-      <Description>Surpreendentemente comum em todo o Sistema Solar, acredita-se que o {REAGENT:Gold} se origine no coração de supernovas, acumulando-se como poeira nas fases iniciais de formação solar e incorporando-se aos corpos planetários em formação.  Hoje, um elemento valioso na construção de bases {LINK:Stationeers;Stationeer}, o {REAGENT:Gold} é apreciado não por sua beleza, mas por sua confiabilidade: inerte, durável, condutor e extremamente estável — sua força está no fato de que ele simplesmente não reage.</Description>
+      <Description>Surpreendentemente comum em todo o Sistema Solar, acredita-se que o {REAGENT:Ouro} se origine no coração de supernovas, acumulando-se como poeira nas fases iniciais de formação solar e incorporando-se aos corpos planetários em formação.  Hoje, um elemento valioso na construção de bases {LINK:Stationeers;Stationeer}, o {REAGENT:Ouro} é apreciado não por sua beleza, mas por sua confiabilidade: inerte, durável, condutor e extremamente estável — sua força está no fato de que ele simplesmente não reage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGrenade</Key>
@@ -1354,7 +1358,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     <RecordThing>
       <Key>ItemIronOre</Key>
       <Value>Minério (Ferro)</Value>
-      <Description>Abundante em todo o Sistema Solar, o ferro é o {LINK:OrePage;minério} mais comumente utilizado pelos {LINK:Stationeers;Stationeers} na construção de bases fora da Terra. Pode ser fundido em {THING:ItemIronIngot}s e também em {THING:ItemSteelIngot}s.</Description>
+      <Description>Abundante em todo o Sistema Solar, o ferro é o {LINK:OrePage;minério} mais comumente utilizado pelos {LINK:Stationeers;Stationeers} na construção de bases fora da Terra. Pode ser fundido em {THING:ItemIronIngot} e também em {THING:ItemSteelIngot}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlock</Key>
@@ -1739,8 +1743,8 @@ USO: “J” para ativar; “espaço” para subir; “Ctrl esquerdo” para des
     <RecordThing>
       <Key>ItemSteelIngot</Key>
       <Value>Lingote (Aço)</Value>
-      <Description>Os lingotes de aço são uma liga metálica produzida em uma {THING:StructureFurnace}, fundindo {THING:ItemIronOre} e {THING:ItemCoalOre} na proporção de 3:1.  
-Pode não ser elegante, mas {THING:ItemOxite} e {THING:ItemVolatiles} podem ser combinados em uma proporção de 1:2 na fornalha para criar a mistura gasosa necessária para a fundição.</Description>
+      <Description>Os lingotes de aço são uma liga metálica produzida em um {THING:StructureFurnace}, fundindo {THING:ItemIronOre} e {THING:ItemCoalOre} na proporção de 3:1.  
+Pode não ser elegante, mas {THING:ItemOxite} e {THING:ItemVolatiles} podem ser combinados em uma proporção de 1:2 no forno para criar a mistura gasosa necessária para a fundição.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelSheets</Key>
@@ -1854,8 +1858,13 @@ A placa-mãe de classificação K-cops 10-10, projetada pela {LINK:Norsec;Norsec
       <Key>OrganLungs</Key>
       <Value>Pulmões Humanos</Value>
       <Description>Os pulmões são órgãos delicados. Mantê-los na temperatura e pressão corretas é altamente recomendável.</Description>
+	</RecordThing>
+	<RecordThing>
+	  <Key>DynamicBodyBag</Key>
+	  <Value>Saco Mortuário</Value>
+	  <Description>Quando jogadores mortos entram em decomposição, eles serão colocados em um saco mortuário. Se ainda não tiverem ressuscitado, o jogador morto pode ser revivido em um {THING:StructureCryoTube}.</Description>
     </RecordThing>
-    <RecordThing>
+	<RecordThing>
       <Key>SpaceShuttle</Key>
       <Value>Nave Espacial</Value>
       <Description>Uma antiga nave de transporte {LINK:Sinotai;Sinotai}, há muito tempo desativada.</Description>
@@ -1994,9 +2003,9 @@ Esteja presente, mesmo quando não estiver.</Description>
       <Key>StructureCentrifuge</Key>
       <Value>Centrífuga</Value>
       <Description>Se um {THING:StructureRecycler} ou um {THING:StructureFurnace} desbalanceado produzir uma mistura de {LINK:ReagentPage;reagentes} em vez dos {LINK:IngotPage;lingotes} desejados, a centrífuga permite recuperar o {LINK:OrePage;minério} bruto.
-		Ela também refina {THING:ItemDirtyOre} produzidos pela {THING:StructureDeepMiner} e {THING:ItemSpaceOre} gerados pela {THING:StructureRocketMiner}.
-		Sua irmã maior, a {THING:StructureCombustionCentrifuge}, pode processar itens significativamente mais rápido. Os itens processados pela centrífuga são desgasificados.
-		Se for aberta enquanto estiver ligada, a centrífuga entrará em estado de erro, reduzirá seu RPM para 0 e então exportará quaisquer itens internos.</Description>
+Ela também refina {THING:ItemDirtyOre} produzidos pela {THING:StructureDeepMiner} e {THING:ItemSpaceOre} gerados pela {THING:StructureRocketMiner}.
+Sua irmã maior, a {THING:StructureCombustionCentrifuge}, pode processar itens significativamente mais rápido. Os itens processados pela centrífuga são desgasificados.
+Se for aberta enquanto estiver ligada, a centrífuga entrará em estado de erro, reduzirá seu RPM para 0 e então exportará quaisquer itens internos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
@@ -2038,29 +2047,29 @@ A saída de esteira é uma abertura por onde os itens deixam as redes de {LINK:I
       <Key>StructureChuteStraight</Key>
       <Value>Esteira (Reta)</Value>
       <Description>As esteiras funcionam como tubos para itens. Use-as para conectar diversos equipamentos de {LINK:ImportExportPage;importação/exportação}, como a {THING:StructureVendingMachine} e impressoras como o {THING:StructureAutolathe}.
-		O objetivo de qualquer {LINK:Stationeers;Stationeer} é tornar a sobrevivência fora do mundo um pouco menos difícil para si e para aqueles que seguirão seus passos.
-		As esteiras são componentes fundamentais das redes de esteiras, que permitem o transporte de itens entre qualquer máquina ou dispositivo com uma porta de {LINK:ImportExportPage;importação/exportação}.</Description>
+O objetivo de qualquer {LINK:Stationeers;Stationeer} é tornar a sobrevivência fora do mundo um pouco menos difícil para si e para aqueles que seguirão seus passos.
+As esteiras são componentes fundamentais das redes de esteiras, que permitem o transporte de itens entre qualquer máquina ou dispositivo com uma porta de {LINK:ImportExportPage;importação/exportação}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight3</Key>
       <Value>Esteira (Reta 3)</Value>
       <Description>As esteiras funcionam como tubos para itens. Use-as para conectar diversos equipamentos de {LINK:ImportExportPage;importação/exportação}, como a {THING:StructureVendingMachine} e impressoras como o {THING:StructureAutolathe}.
-		O objetivo de qualquer {LINK:Stationeers;Stationeer} é tornar a sobrevivência fora do mundo um pouco menos difícil para si e para aqueles que seguirão seus passos.
-		As esteiras são componentes fundamentais das redes de esteiras, que permitem o transporte de itens entre qualquer máquina ou dispositivo com uma porta de {LINK:ImportExportPage;importação/exportação}.</Description>
+O objetivo de qualquer {LINK:Stationeers;Stationeer} é tornar a sobrevivência fora do mundo um pouco menos difícil para si e para aqueles que seguirão seus passos.
+As esteiras são componentes fundamentais das redes de esteiras, que permitem o transporte de itens entre qualquer máquina ou dispositivo com uma porta de {LINK:ImportExportPage;importação/exportação}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight5</Key>
       <Value>Esteira (Reta 5)</Value>
       <Description>As esteiras funcionam como tubos para itens. Use-as para conectar diversos equipamentos de {LINK:ImportExportPage;importação/exportação}, como a {THING:StructureVendingMachine} e impressoras como o {THING:StructureAutolathe}.
-		O objetivo de qualquer {LINK:Stationeers;Stationeer} é tornar a sobrevivência fora do mundo um pouco menos difícil para si e para aqueles que seguirão seus passos.
-		As esteiras são componentes fundamentais das redes de esteiras, que permitem o transporte de itens entre qualquer máquina ou dispositivo com uma porta de {LINK:ImportExportPage;importação/exportação}.</Description>
+O objetivo de qualquer {LINK:Stationeers;Stationeer} é tornar a sobrevivência fora do mundo um pouco menos difícil para si e para aqueles que seguirão seus passos.
+As esteiras são componentes fundamentais das redes de esteiras, que permitem o transporte de itens entre qualquer máquina ou dispositivo com uma porta de {LINK:ImportExportPage;importação/exportação}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight10</Key>
       <Value>Esteira (Reta 10)</Value>
       <Description>As esteiras funcionam como tubos para itens. Use-as para conectar diversos equipamentos de {LINK:ImportExportPage;importação/exportação}, como a {THING:StructureVendingMachine} e impressoras como o {THING:StructureAutolathe}.
-		O objetivo de qualquer {LINK:Stationeers;Stationeer} é tornar a sobrevivência fora do mundo um pouco menos difícil para si e para aqueles que seguirão seus passos.
-		As esteiras são componentes fundamentais das redes de esteiras, que permitem o transporte de itens entre qualquer máquina ou dispositivo com uma porta de {LINK:ImportExportPage;importação/exportação}.</Description>
+O objetivo de qualquer {LINK:Stationeers;Stationeer} é tornar a sobrevivência fora do mundo um pouco menos difícil para si e para aqueles que seguirão seus passos.
+As esteiras são componentes fundamentais das redes de esteiras, que permitem o transporte de itens entre qualquer máquina ou dispositivo com uma porta de {LINK:ImportExportPage;importação/exportação}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
@@ -2190,7 +2199,7 @@ Uma reclamação recorrente entre os {LINK:Stationeers;Stationeers} é o fato de
       <Value>Unidade de Filtragem</Value>
       <Description>A Unidade de Filtragem é baseada em um antigo sistema da {LINK:ExMin;ExMin}, por sua vez derivado de projetos mais antigos de origem incerta. Ela está disponível no {THING:ItemKitAtmospherics}.
 Apesar disso, o dispositivo provou ser indispensável para os sistemas atmosféricos dos {LINK:Stationeers;Stationeers}, pois é capaz de filtrar simultaneamente dois {LINK:GasPage;gases} de uma única rede de tubos, utilizando um conjunto duplo de filtros. A unidade possui uma entrada, uma saída filtrada e outra saída não filtrada para gases residuais.
-</Description>
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPurifier</Key>
@@ -2837,7 +2846,7 @@ Altamente sensível à temperatura, o oxite começa a derreter assim que é mine
     <RecordThing>
       <Key>ItemSpaceOre</Key>
       <Value>Minério Bruto</Value>
-      <Description>Minério extraído de asteroides por meio do {THING:StructureRocketMiner}, que deve ser processado no {THING:StructureCentrifuge} ou no {THING:StructureCombustionCentrifuge} para produzir minérios fundíveis.</Description>
+      <Description>Minério extraído de asteroides por meio do {THING:StructureRocketMiner}, que deve ser processado na {THING:StructureCentrifuge} ou na {THING:StructureCombustionCentrifuge} para produzir minérios fundíveis.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron</Key>
@@ -4045,7 +4054,7 @@ Observe que os transformadores também atuam como isoladores de dados, impedindo
     <RecordThing>
       <Key>CartridgeConfiguration</Key>
       <Value>Cartucho (Configuração)</Value>
-	  <Description>Com esse cartucho você tem informações de qualquer equipamento, basta utilizar no Tablet e apontar para o equipamento que deseja obter as informações. </Description>	
+	  <Description>Com esse cartucho você tem informações de qualquer equipamento, basta utilizar no Tablet e apontar para o equipamento que deseja informações. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrate</Key>
@@ -5000,7 +5009,7 @@ USO: ‘J’ para ativar; ‘Espaço’ para subir; ‘Ctrl Esquerdo’ para des
       <Value>Tablet Avançado</Value>
       <Description>O {LINK:Xigo;Xigo} Padi 2 é uma versão aprimorada do {THING:ItemTablet} básico, possuindo dois slots para {LINK:CartridgePage;cartuchos}. O Padi 2 aceita {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader} e diversos outros cartuchos.
 	  
-	Com um {THING:ItemIntegratedCircuit10} no {SLOT:ProgrammableChip}, é possível acessar os slots variáveis do humano que o carrega, utilizando os números de dispositivo (d0, d1, etc...), desde que o item possa ser acessado via lógica, como o {THING:ItemHardSuit}.</Description>
+Com um {THING:ItemIntegratedCircuit10} no {SLOT:ProgrammableChip}, é possível acessar os slots variáveis do humano que o carrega, utilizando os números de dispositivo (d0, d1, etc...), desde que o item possa ser acessado via lógica, como o {THING:ItemHardSuit}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipe</Key>
@@ -5583,7 +5592,7 @@ Embora seja otimizada para gerar energia mesmo em mundos com atmosfera rarefeita
     <RecordThing>
       <Key>ItemBiomass</Key>
       <Value>Biomassa</Value>
-      <Description>Material orgânico triturado que é obtido quando alimentos e matéria orgânica são processados pelo {THING:StructureRecycler} ou pela {THING:StructureCentrifuge}. Pode ser queimado em uma {THING:StructureFurnace} para gerar {THING:ItemCharcoal}, utilizado na {THING:StructureSolidFuelGenerator}.</Description>
+      <Description>Material orgânico triturado que é obtido quando alimentos e matéria orgânica são processados pelo {THING:StructureRecycler} ou pela {THING:StructureCentrifuge}. Pode ser queimado em um {THING:StructureFurnace} para gerar {THING:ItemCharcoal}, utilizado no {THING:StructureSolidFuelGenerator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTrayData</Key>
@@ -5594,7 +5603,7 @@ Pode ser automatizado usando a {THING:StructureHarvie}. Diferente da {THING:Stru
     <RecordThing>
       <Key>ItemCharcoal</Key>
       <Value>Carvão Vegetal</Value>
-      <Description>O carvão vegetal é um resíduo leve e negro de carbono, produzido ao aquecer {THING:ItemBiomass} em uma {THING:StructureArcFurnace}. Possui menor potencial energético que o {THING:ItemCoalOre}, mas pode ser usado como fonte básica de combustível. O carvão vegetal também pode substituir o carvão mineral em receitas de {LINK:IngotPage;ligas metálicas}.</Description>
+      <Description>O carvão vegetal é um resíduo leve e negro de carbono, produzido ao aquecer {THING:ItemBiomass} em um {THING:StructureArcFurnace}. Possui menor potencial energético que o {THING:ItemCoalOre}, mas pode ser usado como fonte básica de combustível. O carvão vegetal também pode substituir o carvão mineral em receitas de {LINK:IngotPage;ligas metálicas}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
@@ -6100,7 +6109,7 @@ Para mais informações sobre preservação de alimentos, visite a seção {LINK
       <Value>Geladeira Pequena</Value>
       <Description>Essencialmente uma caixa altamente isolada que permite aos usuários canalizar qualquer atmosfera desejada, a geladeira Minibar da {LINK:Recurso;Recurso} foi uma solução simples para o problema da {LINK:NutritionPage;deterioração dos alimentos}. Ela armazena uma pequena quantidade de itens, em qualquer temperatura que você conseguir manter.
       
-	Para mais informações sobre preservação de alimentos, visite a seção {LINK:DecayPage;deterioração dos alimentos} na Stationpedia.</Description>
+Para mais informações sobre preservação de alimentos, visite a seção {LINK:DecayPage;deterioração dos alimentos} na Stationpedia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRefrigeratedVendingMachine</Key>
@@ -6991,11 +7000,11 @@ Altamente sensível à temperatura, o nitrice começa a derreter assim que é mi
       <Key>StructureCombustionCentrifuge</Key>
       <Value>Centrífuga de Combustão</Value>
       <Description>A Centrífuga de Combustão é uma versão movida a gás da {THING:StructureCentrifuge}. Se um {THING:StructureRecycler} ou um {THING:StructureFurnace} desbalanceado produzir uma mistura de {LINK:ReagentPage;reagentes} em vez dos {LINK:IngotPage;ingotes} desejados, a centrífuga permite recuperar o {LINK:OrePage;minério} bruto.  
-		Também refina {THING:ItemDirtyOre} produzido pela {THING:StructureDeepMiner} e {THING:ItemSpaceOre} produzido pela {THING:StructureRocketMiner}. Uma mistura de combustível deve ser fornecida à entrada de gás, e os gases residuais devem ser liberados pela saída.  
-		As RPMs da máquina devem ser controladas pelas alavancas de aceleração e de limitação de combustão. Se a Centrífuga de Combustão ganhar ou perder RPMs muito rápido, sofrerá estresse e eventualmente parará. RPMs mais altos resultam diretamente em velocidades de processamento mais rápidas.  
-		- A alavanca do acelerador controla a quantidade de combustível puxada para dentro da máquina, aumentando a temperatura interna e, consequentemente, as RPMs.  
-		- A alavanca do limitador influencia a velocidade da combustão e a quantidade de gás não queimado no escapamento. 
-		Ejetar minério da Centrífuga de Combustão enquanto estiver em alta rotação resultará em acúmulo adicional de estresse. Se for desligada enquanto não estiver sob estresse, a máquina começará automaticamente a frear e reduzir as RPMs de maneira controlada
+Também refina {THING:ItemDirtyOre} produzido pela {THING:StructureDeepMiner} e {THING:ItemSpaceOre} produzido pela {THING:StructureRocketMiner}. Uma mistura de combustível deve ser fornecida à entrada de gás, e os gases residuais devem ser liberados pela saída.  
+As RPMs da máquina devem ser controladas pelas alavancas de aceleração e de limitação de combustão. Se a Centrífuga de Combustão ganhar ou perder RPMs muito rápido, sofrerá estresse e eventualmente parará. RPMs mais altos resultam diretamente em velocidades de processamento mais rápidas.  
+- A alavanca do acelerador controla a quantidade de combustível puxada para dentro da máquina, aumentando a temperatura interna e, consequentemente, as RPMs.  
+- A alavanca do limitador influencia a velocidade da combustão e a quantidade de gás não queimado no escapamento. 
+Ejetar minério da Centrífuga de Combustão enquanto estiver em alta rotação resultará em acúmulo adicional de estresse. Se for desligada enquanto não estiver sob estresse, a máquina começará automaticamente a frear e reduzir as RPMs de maneira controlada
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -7046,7 +7055,7 @@ Altamente sensível à temperatura, o nitrice começa a derreter assim que é mi
 Widgets de Valor de Gene Individual: 
 A maioria dos valores de genes aparece como uma barra deslizante entre um valor mínimo à esquerda e um valor máximo à direita. O valor real do gene está no meio da barra, em laranja.
 
-Widgets de Valor de Múltiplos Genes:: 
+Widgets de Valor de Múltiplos Genes: 
 Para faixas de temperatura e pressão, quatro genes aparecem no mesmo widget. Os valores laranja abaixo da barra são os limites mínimos e máximos para o crescimento. Fora dessa faixa, a planta deixará de crescer e eventualmente morrerá. Os valores azuis abaixo da barra são os limites mínimos e máximos para o crescimento ideal. Dentro dessa faixa, a planta crescerá em velocidade máxima. Os valores brancos acima da barra são os limites mínimos e máximos possíveis para o limiar de crescimento. </Description>
     </RecordThing>
     <RecordThing>
@@ -7134,7 +7143,7 @@ Para iniciar o processo, coloque uma planta ou saco de sementes no slot da esque
       <Value>Antena Parabólica Pequena</Value>
       <Description>Esta pequena unidade de comunicações pode ser usada para se comunicar com naves de comércio próximas.
 
-        Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:MotherboardComms}, a um {THING:Landingpad_CenterPiece01} e a uma {THING:StructureVendingMachine}, permite que os Stationeers entrem em contato com comerciantes. Ajuste seus atributos horizontais e verticais diretamente ou através da lógica.</Description>
+Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:MotherboardComms}, a um {THING:Landingpad_CenterPiece01} e a uma {THING:StructureVendingMachine}, permite que os Stationeers entrem em contato com comerciantes. Ajuste seus atributos horizontais e verticais diretamente ou através da lógica.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSmallSatelliteDish</Key>
@@ -7146,7 +7155,7 @@ Para iniciar o processo, coloque uma planta ou saco de sementes no slot da esque
       <Value>Antena Parabólica Grande</Value>
       <Description>Esta grande unidade de comunicações pode ser usada para se comunicar com naves de comércio próximas.
         
-		Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:MotherboardComms}, a um {THING:Landingpad_CenterPiece01} e a uma {THING:StructureVendingMachine}, permite que os Stationeers entrem em contato com comerciantes. Ajuste seus atributos horizontais e verticais diretamente ou através da lógica.</Description>
+Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:MotherboardComms}, a um {THING:Landingpad_CenterPiece01} e a uma {THING:StructureVendingMachine}, permite que os Stationeers entrem em contato com comerciantes. Ajuste seus atributos horizontais e verticais diretamente ou através da lógica.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLargeSatelliteDish</Key>
@@ -7502,15 +7511,15 @@ Para iniciar o processo, coloque uma planta ou saco de sementes no slot da esque
       <Key>StructureEvaporationChamber</Key>
       <Value>Câmara de Evaporação</Value>
       <Description>Um dispositivo para evaporar líquidos em gases com segurança. Líquidos e gases coexistem de forma segura dentro do equipamento. Ao reduzir a pressão alvo do regulador de contrapressão embutido, utilizando o seletor, a temperatura de ebulição dos líquidos internos será alterada.  
-		A entrada de gás secundária, localizada à esquerda, funciona como entrada de trocador de calor e permite a troca térmica entre o tubo secundário e a atmosfera interna da Câmara de Evaporação.  
-		Em conjunto com a {THING:StructureCondensationChamber}, os Stationeers podem explorar as propriedades de mudança de fase dos gases para construir um ar-condicionado improvisado.</Description>
+A entrada de gás secundária, localizada à esquerda, funciona como entrada de trocador de calor e permite a troca térmica entre o tubo secundário e a atmosfera interna da Câmara de Evaporação.  
+Em conjunto com a {THING:StructureCondensationChamber}, os Stationeers podem explorar as propriedades de mudança de fase dos gases para construir um ar-condicionado improvisado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCondensationChamber</Key>
       <Value>Câmara de Condensação</Value>
       <Description>Um dispositivo para condensar gases em líquidos com segurança. Líquidos e gases coexistem de forma segura dentro do equipamento. A câmara se pressuriza utilizando seu regulador de pressão embutido, ajustado pelo seletor.  
-		A entrada de gás secundária, localizada à esquerda, funciona como entrada de trocador de calor e permite a troca térmica entre o tubo secundário e a atmosfera interna da Câmara de Condensação.  
-		Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem explorar as propriedades de mudança de fase dos gases para construir um ar-condicionado improvisado.</Description>
+A entrada de gás secundária, localizada à esquerda, funciona como entrada de trocador de calor e permite a troca térmica entre o tubo secundário e a atmosfera interna da Câmara de Condensação.  
+Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem explorar as propriedades de mudança de fase dos gases para construir um ar-condicionado improvisado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEvaporationChamber</Key>
@@ -8172,7 +8181,27 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePressureFedLiquidEngine</Key>
       <Value>Motor a Líquido por Pressão</Value>
-      <Description>  Altamente eficiente e potente, o Motor a Líquido por Pressão é um motor desafiador de operar em configuração estável. O líquido é puxado da entrada para o motor com base na pressão do gás de entrada. Parte do gás também é movido nesse processo, então os Stationeers precisarão criar um sistema para manter uma alta pressão de gás no tubo de entrada de líquido. A segunda conexão de tubo de líquido é uma conexão opcional de trocador de calor, que troca calor entre o conteúdo dos tubos e o sino do motor. A variável de Configuração define a eficácia do trocador de calor.</Description>
+      <Description>Altamente eficiente e potente, o Motor a Líquido por Pressão é um motor desafiador de operar em configuração estável. O líquido é puxado da entrada para o motor com base na pressão do gás de entrada. Parte do gás também é movido nesse processo, então os Stationeers precisarão criar um sistema para manter uma alta pressão de gás no tubo de entrada de líquido. A segunda conexão de tubo de líquido é uma conexão opcional de trocador de calor, que troca calor entre o conteúdo dos tubos e o sino do motor. A variável de Configuração define a eficácia do trocador de calor.</Description>
+	 </RecordThing>		  
+	<RecordThing>
+      <Key>ItemKitPressureFedGasEngineHeavy</Key>
+      <Value>Kit (Motor Pesado a Gás com Alimentação por Pressão)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedGasEngineHeavy</Key>
+      <Value>Motor Pesado a Gás com Alimentação por Pressão</Value>
+      <Description>Uma variante maior e mais poderosa do {THING:StructurePressureFedGasEngine}. Sacrifica uma pequena quantidade de eficiência para aumentar significativamente a propulsão. Os Motores a Gás com Alimentação por Pressão movem o gás de cada entrada com base na pressão dos tubos de entrada. Controle a proporção de mistura dos combustíveis ajustando as pressões de entrada para alcançar uma mistura 2:1 de {GAS:Volatiles} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em uma propulsão ainda maior.</Description>
+    </RecordThing>
+    <RecordThing>
+     <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
+      <Value>Kit (Motor Líquido Pesado com Alimentação por Pressão)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedLiquidEngineHeavy</Key>
+      <Value>Motor Líquido Pesado com Alimentação por Pressão</Value>
+      <Description>Uma variante maior e mais potente do {THING:StructurePressureFedLiquidEngine}. Sacrifica uma pequena quantidade de eficiência para aumentar significativamente a propulsão. Atenção, os Motores Líquidos com Alimentação por Pressão são desafiadores de operar em uma configuração estável. O líquido é puxado da entrada para o motor com base na pressão do gás de entrada. Parte do gás também se movimenta nesse processo, então os Stationeers precisarão criar um sistema para manter alta pressão de gás no tubo de entrada de líquido. A segunda conexão do tubo de líquido é uma conexão opcional de trocador de calor, que troca calor entre o conteúdo dos tubos e o sino do motor; a variável Setting determina a efetividade do trocador de calor.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA1</Key>
@@ -8527,7 +8556,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructureRoboticArmDock</Key>
       <Value>Doca LArRE</Value>
-      <Description> A Entidade de Trilho Linear Articulado, ou LArRE, pode ser usada para plantar, colher e fertilizar plantas em bandejas de cultivo. Também pode pegar itens de um {THING:StructureChuteExportBin} e soltá-los em um {THING:StructureChuteBin}. A LArRE pode interagir com bandejas de cultivo ou recipientes de esteira construídos sob uma estação de trilho linear ou sob sua doca.</Description>
+      <Description>A Entidade de Trilho Linear Articulado, ou LArRE, pode ser usada para plantar, colher e fertilizar plantas em bandejas de cultivo. Também pode pegar itens de um {THING:StructureChuteExportBin} e soltá-los em um {THING:StructureChuteBin}. A LArRE pode interagir com bandejas de cultivo ou recipientes de esteira construídos sob uma estação de trilho linear ou sob sua doca.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIcarusSuit</Key>
@@ -8995,6 +9024,10 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     <RecordThing>
       <Key>ItemSuitHARM</Key>
       <Value>Traje HARM</Value>
+	  <Description>O Traje HARM é o último recurso do Stationeer contra ambientes hostis.
+Ele é resfriado a líquido para um desempenho térmico excepcional e oferece resistência superior a impactos e exposição à lava. Embora o traje HARM não seja compatível com o {THING:ItemJetpackBasic}, os Stationeers ainda podem equipar uma {THING:ItemHardBackpack} ou {THING:ItemHardMiningBackPack}. Devido à sua maior estabilidade e tamanho, as tempestades não afetam a velocidade de movimento enquanto estiver em um traje HARM; no entanto, isso resulta em uma redução geral na movimentação durante a operação.
+
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitHelmetHARM</Key>
@@ -9183,6 +9216,270 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
       <Value>Máquina de Venda Automática Pequena</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>StructureVendingMachineSmall1</Key>
+      <Value>Máquina de Vendas Pequena 1</Value>		   
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageFrame</Key>
+      <Value>Estrutura de Armazenamento de Trajes</Value>
+      <Description>Organizada e útil, a estrutura de armazenamento de trajes guarda um {THING:ItemEvaSuit}, um {THING:ItemSpaceHelmet} e um {THING:ItemJetpackBasic}. 
+Quando energizada e conectada a {GAS:Oxygen} e {GAS:Nitrogen}, ela recarregará as baterias do traje, reabastecerá o {THING:ItemGasCanisterOxygen} e o seu {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. O tanque de resíduos será bombeado para o tubo conectado à saída de descarte.
+Todos os tubos da estrutura devem estar conectados ou a unidade exibirá um estado de erro, mas ainda assim carregará a bateria.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageLocker</Key>
+      <Value>Armário de Armazenamento de Trajes</Value>
+      <Description>Organizado e útil, o armário de armazenamento de trajes guarda um {THING:ItemEvaSuit}, um {THING:ItemSpaceHelmet} e um {THING:ItemJetpackBasic}.
+Quando energizado e conectado a {GAS:Oxygen} e {GAS:Nitrogen}, ele recarregará as baterias do traje, reabastecerá o {THING:ItemGasCanisterOxygen} e o seu {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. O tanque de resíduos será bombeado para o tubo conectado à saída de descarte.
+Todos os tubos do armário devem estar conectados ou a unidade exibirá um estado de erro, mas ainda assim carregará a bateria.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_GasTankConnectorPiece</Key>
+      <Value>Conector de Tanque da Plataforma (Gás)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_LiquidTankConnectorPiece</Key>
+      <Value>Conector de Tanque da Plataforma (Líquido)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankGas1x3</Key>
+      <Value>Tanque em Linha de Gás 1x3</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankLiquid1x3</Key>
+      <Value>Tanque em Linha de Líquido 1x3</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankGas1x3</Key>
+      <Value>Tanque em Linha de Gás 1x3 (Isolado)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankLiquid1x3</Key>
+      <Value>Tanque em Linha de Líquido 1x3 (Isolado)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner</Key>
+      <Value>Cabo Superpesado (Canto)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3</Key>
+      <Value>Cabo Superpesado (Canto 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3Burnt</Key>
+      <Value>Cabo Superpesado Queimado (Canto 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4</Key>
+      <Value>Cabo Superpesado (Canto 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4Burnt</Key>
+      <Value>Cabo Superpesado Queimado (Canto 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCornerBurnt</Key>
+      <Value>Cabo Superpesado Queimado (Canto)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction</Key>
+      <Value>Cabo Superpesado (Junção)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4</Key>
+      <Value>Cabo Superpesado (Junção 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4Burnt</Key>
+      <Value>Cabo Superpesado Queimado (Junção 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5</Key>
+      <Value>Cabo Superpesado (Junção 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5Burnt</Key>
+      <Value>Cabo Superpesado Queimado (Junção 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6</Key>
+      <Value>Cabo Superpesado (Junção 6)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6Burnt</Key>
+      <Value>Cabo Superpesado Queimado (Junção 6)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunctionBurnt</Key>
+      <Value>Cabo Superpesado Queimado (Junção)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight</Key>
+      <Value>Cabo Superpesado (Reto)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3</Key>
+      <Value>Cabo Superpesado (Reto 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3Burnt</Key>
+      <Value>Cabo Superpesado Queimado (Reto 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5</Key>
+      <Value>Cabo Superpesado (Reto 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5Burnt</Key>
+      <Value>Cabo Superpesado Queimado (Reto 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10</Key>
+      <Value>Cabo Superpesado (Reto 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10Burnt</Key>
+      <Value>Cabo Superpesado Queimado (Reto 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraightBurnt</Key>
+      <Value>Cabo Superpesado Queimado (Reto)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableCoilSuperHeavy</Key>
+      <Value>Rolo de Cabo (Superpesado)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePacker</Key>
+      <Value>Carregador</Value>
+      <Description>O Carregador pegará objetos do seu slot esquerdo e os colocará nos slots disponíveis do objeto inserido no slot direito. Os slots serão preenchidos em ordem, do primeiro ao último. Se nenhum slot disponível for encontrado, o objeto do slot esquerdo será ejetado. O objeto do slot direito será ejetado automaticamente quando estiver cheio ou quando a alavanca for puxada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CardboardBoxLarge</Key>
+      <Value>Caixa de Papelão Grande</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameStripes</Key>
+      <Value>Sinalização Portátil em A (Listras)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameWIP</Key>
+      <Value>Sinalização Portátil em A (Em Construção)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicWorkCone</Key>
+      <Value>Cones de Sinalização Portátil</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameStripes</Key>
+      <Value>Kit Placa Portátil em A (Listras)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameWIP1</Key>
+      <Value>Kit Placa Portátil em A (Em Obras)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicBarrier</Key>
+      <Value>Kit Barreira Portátil</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicChannelizer</Key>
+      <Value>Kit Canalizador Portátil</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicWorkCone</Key>
+      <Value>Kit Cone de Trabalho Portátil</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicBarrier</Key>
+      <Value>Barreira Portátil</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicChannelizer</Key>
+      <Value>Canalizador Portátil</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCheeseWedge</Key>
+      <Value>Queijo</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurger</Key>
+      <Value>Hambúrguer</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableFuse500k</Key>
+      <Value>Fusível de Cabo (500 kW)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoGas</Key>
+      <Value>Troca-Térmica Direta Super-Grande (Gases)</Value>
+      <Description>Os Trocadores de Calor Diretos equalizam a temperatura das duas redes de entrada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoLiquid</Key>
+      <Value>Troca-Térmica Direta Super-Grande (Gás para Líquido)</Value>
+      <Description>Os Trocadores de Calor Diretos equalizam a temperatura das duas redes de entrada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeLiquidToLiquid</Key>
+      <Value>Troca-Térmica Direta Super-Grande (Líquidos)</Value>
+      <Description>Os Trocadores de Calor Diretos equalizam a temperatura das duas redes de entrada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurgerBox</Key>
+      <Value>Caixa de Hambúrguer</Value>
+      <Description>Um recipiente para um {THING:ItemBurger} que é ao mesmo tempo estético e prático, pois reduz significativamente a taxa de deterioração. Permite comer diretamente o alimento contido quando aberto nas mãos.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDrinkingFountain2x1</Key>
+      <Value>Bebedouro</Value>
+      <Description>O Bebedouro pode ser usado diretamente para aumentar a hidratação. Ele precisa de um suprimento de {GAS:Water}.</Description>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9248,6 +9545,10 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     <Record>
       <Key>Battery</Key>
       <Value>Bateria</Value>
+	</Record>
+    <Record>
+      <Key>Egg</Key>
+      <Value>Ovo</Value>
     </Record>
     <Record>
       <Key>GasCanister</Key>
@@ -9318,6 +9619,14 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
       <Value>Eletrodoméstico 2</Value>
     </Record>
     <Record>
+      <Key>Payload</Key>
+      <Value>Carga</Value>
+    </Record>
+    <Record>
+      <Key>Recipient</Key>
+      <Value>Destinatário</Value>
+    </Record>
+    <Record>
       <Key>Import</Key>
       <Value>Importar</Value>
     </Record>
@@ -9336,6 +9645,14 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     <Record>
       <Key>TransportSlot</Key>
       <Value>Slot de Transporte</Value>
+    </Record>
+    <Record>
+      <Key>BurgerSlot</Key>
+      <Value>Hambúrguer</Value>
+    </Record>
+    <Record>
+      <Key>FriesSlot</Key>
+      <Value>Batatas Fritas</Value>
     </Record>
     <Record>
       <Key>DrillSlot</Key>
@@ -9490,6 +9807,10 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
       <Value>Jogador</Value>
     </Record>
     <Record>
+      <Key>Mask</Key>
+      <Value>Máscara</Value>
+    </Record>
+    <Record>
       <Key>Fertiliser</Key>
       <Value>Fertilizante</Value>
     </Record>
@@ -9564,6 +9885,10 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     <Record>
       <Key>None</Key>
       <Value>Nenhum</Value>
+    </Record>
+    <Record>
+      <Key>Crate</Key>
+      <Value>Slot de Caixa</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -10074,6 +10399,14 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
   </Interactables>
   <Interface>
     <Record>
+      <Key>InventorySort</Key>
+      <Value>Ordenar</Value>
+    </Record>
+    <Record>
+      <Key>InventoryClose</Key>
+      <Value>Fechar</Value>
+    </Record>
+    <Record>
       <Key>VenusPoiRegionFumaroleSteppeName</Key>
       <Value>Estepe Fumarólica</Value>
     </Record>
@@ -10264,6 +10597,54 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     <Record>
       <Key>VenusPoiRegionPaleBrimstonePlainDescription</Key>
       <Value>Planícies de Enxofre</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiCallanishPeakName</Key>
+      <Value>Monte Callanish</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiCallanishPeakDescription</Key>
+      <Value>Ponto mais alto do setor</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiFalgasDescentName</Key>
+      <Value>Descida de Falga</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiFalgasDescentDescription</Key>
+      <Value>Descida íngreme até a grande bacia</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiBalgatanRidgeName</Key>
+      <Value>Serra Balgatan</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiBalgatanRidgeDescription</Key>
+      <Value>Com vista para a bacia norte</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSouthCallanishPassName</Key>
+      <Value>Passagem Sul de Callanish</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSouthCallanishPassDescription</Key>
+      <Value>Rota mais segura para as terras altas</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSidonGullyName</Key>
+      <Value>Ravina Sidon</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSidonGullyDescription</Key>
+      <Value>Ramal protegido da grande bacia</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiMorensFellName</Key>
+      <Value>Colina de Moren</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiMorensFellDescription</Key>
+      <Value>Deserto de gelo varrido pelo vento</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionBluePeakName</Key>
@@ -12011,7 +12392,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanNamedRegionTalonHeightsWestName</Key>
-      <Value>Talon Heights West</Value>
+      <Value>Alturas Talon Oeste</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionTalonHeightsName</Key>
@@ -12219,7 +12600,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanNamedRegionDogsheadName</Key>
-      <Value>Dogshead</Value>
+      <Value>Cabeça de Cão</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionTalonPeakName</Key>
@@ -12259,7 +12640,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterName</Key>
@@ -12267,7 +12648,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterName</Key>
@@ -12275,7 +12656,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterName</Key>
@@ -12283,7 +12664,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterName</Key>
@@ -12291,7 +12672,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterName</Key>
@@ -12299,7 +12680,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterName</Key>
@@ -12307,7 +12688,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterName</Key>
@@ -12315,7 +12696,371 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadPassageSouthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadPassageNorthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauEastDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersOutcropDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauNorthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauSouthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentRiseDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthernHighlandsDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenKnollDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenThumbDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderApproachDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthEasternWasteDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningTrackDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosPlateauDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosSlopeDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersViewDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOutcropDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaHighlandsDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHighlandsDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningSaddleDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsViewDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearOverlookDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsPassDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusNorthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusSouthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNorthernWasteDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyOverlookDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOverlookDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValoursRiseDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensTrackDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBrokenPlateauDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsWestDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsDescentDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsApproachDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarTrackDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensWasteDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensViewDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityRiseDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiseDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshRiseDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiFingerValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNarrowPassageDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDamonPassageDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiftDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsGullyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiHalesDescentDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDantesValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersWalkDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersGullyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiForgottenValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPeanutValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsfootDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarSouthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarNorthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfHopeDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOuterWasteDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleyNorthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleySouthDescription</Key>
+      <Value>Nova Localizaçãon</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiShatteredValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfLossDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderTrackDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderGullyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyChannelDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNeedleValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamitySouthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamityNorthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthEastDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthWestDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthWestDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthEastDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDuchValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityNorthDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityWestDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityEastDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiIronValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPepperGullyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshValleyDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderPeakDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountSorinDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonPeakDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarVentDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountValourDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountOrenDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaDescription</Key>
+      <Value>Nova Localização</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiToraDescription</Key>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnVestaValleyName</Key>
@@ -12339,7 +13084,15 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanSpawnIxionsDemiseDescription</Key>
-      <Value>Uma terra devastada implacável, de rochas irregulares e câmaras de magma colapsadas</Value>
+      <Value>Um deserto implacável de rochas pontiagudas e câmaras de magma colapsadas.</Value>
+    </Record>
+    <Record>
+      <Key>SpawnRoundRobin</Key>
+      <Value>Rodízio</Value>
+    </Record>
+    <Record>
+      <Key>SpawnRoundRobinDescription</Key>
+      <Value>Cada jogador começará o jogo em uma localização separada.</Value>		
     </Record>
     <Record>
       <Key>VulcanSpawnTitusReachName</Key>
@@ -12347,7 +13100,71 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>VulcanSpawnTitusReachDescription</Key>
-      <Value>Um planalto médio e plano com vista para lagos de lava e vulcões</Value>
+      <Value>Um planalto médio e plano com vista para lagos de lava e vulcões.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauName</Key>
+      <Value>Planalto da Serpente</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauDescription</Key>
+      <Value>Uma planície fragmentada que desce até lagos de lava.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsName</Key>
+      <Value>Alturas do Talon</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsDescription</Key>
+      <Value>Um vale montanhoso vulcânico protegido pelo cume do Talon</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthName</Key>
+      <Value>Planalto Duster Norte</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthDescription</Key>
+      <Value>Protegido por um micro vale que avista o Vale Peanut.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakName</Key>
+      <Value>Monte Cinder</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakDescription</Key>
+      <Value>Um vale profundo ao pé do Monte Dogsfoot.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionName</Key>
+      <Value>Encruzilhada Vermelha</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionDescription</Key>
+      <Value>Às margens do Lago Junction e do Lago Calamidade.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackName</Key>
+      <Value>Trilha de Oren</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackDescription</Key>
+      <Value>Aninhada entre o Monte Oren e o Monte Valour, a Trilha de Oren oferece um bom espaço para construção.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootName</Key>
+      <Value>Pé de Cão</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootDescription</Key>
+      <Value>Uma formação basáltica bifurcada que se assemelha a uma pata, oferecendo abrigo raro contra tempestades de cinzas.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookName</Key>
+      <Value>Mirante Kalimar</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookDescription</Key>
+      <Value>Um rio de lava serpenteia pelo vale abaixo, sob o olhar severo do Ventil Kalimar</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
@@ -13138,6 +13955,14 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
       <Value>Detalhamento do Terreno</Value>
     </Record>
     <Record>
+      <Key>SettingsTerrainDistance</Key>
+      <Value>Detalhe do Terreno</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMinableDistance</Key>
+      <Value>Distância de Renderização de Minérios</Value>
+    </Record>
+    <Record>
       <Key>SettingsSoftParticles</Key>
       <Value>Partículas Suaves</Value>
     </Record>
@@ -13639,6 +14464,66 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     <Record>
       <Key>PromptGiveUpConfirm</Key>
       <Value>Desistir</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptTitle</Key>
+      <Value>Inconsciente</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptMessage</Key>
+      <Value>Você está inconsciente, mas não morto. O que deseja fazer?</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionWaitForHelp</Key>
+      <Value>Aguardar</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptAskForHelp</Key>
+      <Value>Pedir Ajuda</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionGiveUp</Key>
+      <Value>Desistir</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptTitle</Key>
+      <Value>Morto</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptMessage</Key>
+      <Value>Você está morto. O que deseja fazer?</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionWaitForHelp</Key>
+      <Value>Aguardar</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptAskForHelp</Key>
+      <Value>Pedir Ajuda</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionGiveUp</Key>
+      <Value>Desistir</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptTitle</Key>
+      <Value>Desistir</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousGiveUpPromptMessage</Key>
+      <Value>Tem certeza de que deseja desistir? Outro jogador ainda pode salvá-lo.</Value>
+    </Record>
+    <Record>
+      <Key>DeadGiveUpPromptMessage</Key>
+      <Value>Tem certeza de que deseja desistir? Outro jogador pode revivê-lo em um Criotubo.</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionGiveUp</Key>
+      <Value>Renascer</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionCancel</Key>
+      <Value>Cancelar</Value>
     </Record>
     <Record>
       <Key>AlertYourSaveFileIsBroken</Key>
@@ -14218,7 +15103,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>LunarSpawnCraterVesperName</Key>
-      <Value>Crater Vesper</Value>
+      <Value>Cratera Vesper</Value>
     </Record>
     <Record>
       <Key>LunarSpawnCraterVesperDescription</Key>
@@ -14234,7 +15119,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>LunarSpawnCraterNoxName</Key>
-      <Value>Crater Nox</Value>
+      <Value>Cratera Nox</Value>
     </Record>
     <Record>
       <Key>LunarSpawnCraterNoxDescription</Key>
@@ -14242,7 +15127,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>LunarSpawnMonsArcanusName</Key>
-      <Value>Mons Arcanus</Value>
+      <Value>Monte Arcanus</Value>
     </Record>
     <Record>
       <Key>LunarSpawnMonsArcanusDescription</Key>
@@ -14254,15 +15139,15 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>GeoNameLunarLacusJaewoo</Key>
-      <Value>Lacus Jaewoo</Value>
+      <Value>Lago Jaewoo</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPromontoriumSolis</Key>
-      <Value>Promontorium Solis</Value>
+      <Value>Promontório Solis</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarMareSimonis</Key>
-      <Value>Mare Simonis</Value>
+      <Value>Mar Simonis</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarMontesUmbrarum</Key>
@@ -14270,15 +15155,15 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>GeoNameLunarVallisLiama</Key>
-      <Value>Vallis Liama</Value>
+      <Value>Vale Liama</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterVeritas</Key>
-      <Value>Crater Veritas</Value>
+      <Value>Cratera Veritas</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLabyrinthusPetr</Key>
-      <Value>Labyrinthus Petr</Value>
+      <Value>Labirinto Petr</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarTerraDylan</Key>
@@ -14294,15 +15179,15 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>GeoNameLunarPalusAeternus</Key>
-      <Value>Palus Aeternus</Value>
+      <Value>Pântano Aeternus</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarMonsArcanus</Key>
-      <Value>Mons Arcanus</Value>
+      <Value>Monte Arcanus</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterElissae</Key>
-      <Value>Crater Elissae</Value>
+      <Value>Cratera Elissae</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarSinusTenebrae</Key>
@@ -14310,7 +15195,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterVesper</Key>
-      <Value>Crater Vesper</Value>
+      <Value>Cratera Vesper</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPlanitiaSolstitia</Key>
@@ -14346,7 +15231,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>GeoNameLunarMareSomnii</Key>
-      <Value>Mare Somnii</Value>
+      <Value>Mar Somnii</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarRimaSerpentis</Key>
@@ -14362,15 +15247,15 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterNox</Key>
-      <Value>Crater Nox</Value>
+      <Value>Cratera Nox</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterSolaris</Key>
-      <Value>Crater Solaris</Value>
+      <Value>Cratera Solaris</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterNovus</Key>
-      <Value>Crater Novus</Value>
+      <Value>Cratera Novus</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarRupesMagna</Key>
@@ -16211,7 +17096,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>NetworkAnalyserActual</Key>
-      <Value>  ATUAL</Value>
+      <Value>ATUAL</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserPotential</Key>
@@ -16219,7 +17104,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>NetworkAnalyserDevices</Key>
-      <Value>APARELHOS</Value>
+      <Value>DISPOSITIVOS</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserRequired</Key>
@@ -16591,7 +17476,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>ScriptCommandBltz</Key>
-      <Value>esvio para a linha b se a &lt; 0</Value>
+      <Value>Desvio para a linha b se a &lt; 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgez</Key>
@@ -16827,7 +17712,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     </Record>
     <Record>
       <Key>ScriptCommandPeek</Key>
-      <Value>RRegistra = o valor no topo da pilha</Value>
+      <Value>Registra = o valor no topo da pilha</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPush</Key>
@@ -17628,7 +18513,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>ToggleChangeLog</Key>
-      <Value>Alternar Registro de Mudanças</Value>
+      <Value>Registro de Mudanças</Value>
     </Record>
     <Record>
       <Key>ShowPreviousVideoText</Key>
@@ -17880,7 +18765,9 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>StationpediaConstructionOptions</Key>
-      <Value>Opções de Construção</Value>
+      <Value>
+	  Opções de Construção
+	  </Value>
     </Record>
     <Record>
       <Key>StationpediaModeHeader</Key>
@@ -18081,6 +18968,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     <Record>
       <Key>MoleCarbonDioxideDescription</Key>
       <Value>Você o exala, {LINK:OrganicPage;plantas} o absorvem. Elas não crescem sem ele. Você pode usar itens colocados nos slots {SLOT:GasFilter} para removê-lo da atmosfera. 
+
 {GAS:CarbonDioxide} tem um calor específico moderadamente alto, o que o torna um bom refrigerante para dispositivos como o {THING:StructureWallCooler}. 
 {GAS:Water} é melhor, mas geralmente tem usos mais importantes.</Value>
     </Record>
@@ -18148,7 +19036,8 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SettingsVirtualizedRendering</Key>
-      <Value>Renderização Virtualizada</Value>
+      <Value>Renderização Virtualizada
+	  </Value>
     </Record>
     <Record>
       <Key>SettingsStartLocalHost</Key>
@@ -18218,11 +19107,19 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Key>StationpediaThermalConductivityRadiation</Key>
       <Value>Radiação Térmica:</Value>
     </Record>
-    <Record>
+	<Record>
+      <Key>StationpediaSolarHeating</Key>
+      <Value>Solar Heating:</Value>
+    </Record>
+	<Record>
       <Key>StationpediaMovementSpeedModifier</Key>
       <Value>Velocidade de Movimento:</Value>
     </Record>
     <Record>
+      <Key>StationpediaOperatingTemperatureRange</Key>
+      <Value>Operação Ideal:</Value>
+    </Record>
+	<Record>
       <Key>StationpediaThermalSaturation</Key>
       <Value>Saturação Térmica:</Value>
     </Record>
@@ -18235,7 +19132,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Temperatura Máxima Segura::</Value>
     </Record>
     <Record>
-      <Key>StationpediaMinOperatingTemperature</Key>
+      <Key>StationpediaOperatingTemperatureRange</Key>
       <Value>Temperatura Mínima de Operação:</Value>
     </Record>
     <Record>
@@ -18246,6 +19143,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Key>ScoreboardDaysLived</Key>
       <Value>Dias Vividos</Value>
     </Record>
+
     <Record>
       <Key>WorldInfoButtonDeleteBackup</Key>
       <Value>Excluir Backup</Value>
@@ -18368,11 +19266,13 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>PhaseDiagramTemperatureDisplay</Key>
-      <Value>Temperatura:</Value>
+      <Value>Temperatura:
+</Value>
     </Record>
     <Record>
       <Key>PhaseDiagramPressuredisplay</Key>
-      <Value>Pressão:</Value>
+      <Value>Pressão:
+</Value>
     </Record>
     <Record>
       <Key>PhaseChangeCelsius</Key>
@@ -18575,6 +19475,14 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Comece com ferramentas de depuração para editar o terreno rapidamente.</Value>
     </Record>
     <Record>
+      <Key>DefaultStartCondition</Key>
+      <Value>Padrão</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionDescription</Key>
+      <Value>Você começará com o básico necessário para estabelecer uma base remota, organizado de forma sistemática em um módulo de pouso abastecido com caixas e pacotes.</Value>
+    </Record>
+    <Record>
       <Key>DefaultScenarioStartCondition</Key>
       <Value>Somente kit do jogador</Value>
     </Record>
@@ -18592,7 +19500,31 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>DefaultStartConditionVenus</Key>
-      <Value>Padrão (Venus)</Value>
+      <Value>Padrão (Vênus)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartCondition</Key>
+      <Value>Comunidade Padrão</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionDescription</Key>
+      <Value>Cada Stationeer começa com seu próprio módulo de pouso totalmente abastecido.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionVulcan</Key>
+      <Value>Comunidade Padrão (Vulcan)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionEuropa</Key>
+      <Value>Comunidade Padrão (Europa)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionMimas</Key>
+      <Value>Comunidade Padrão (Mimas)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionVenus</Key>
+      <Value>Comunidade Padrão (Venus)</Value>
     </Record>
     <Record>
       <Key>BrutalStartCondition</Key>
@@ -18605,6 +19537,26 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>BrutalStartConditionMimas</Key>
       <Value>Brutal (Mimas)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartCondition</Key>
+      <Value>Comunidade Brutal</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionEuropa</Key>
+      <Value>Comunidade Brutal (Europa)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionMimas</Key>
+      <Value>Comunidade Brutal (Mimas)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionVulcan</Key>
+      <Value>Comunidade Brutal (Planeta Quente)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionDescription</Key>
+      <Value>Cada Stationeer começará com seu próprio conjunto de suprimentos minimalistas.</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionVulcan</Key>
@@ -19136,7 +20088,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tutorial3TabletInBackpack</Key>
-      <Value>Sua {THING:ItemHardBackpack} contém um {THING:ItemTablet}.</Value>
+      <Value>Seu {THING:ItemHardBackpack} contém um {THING:ItemTablet}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3InsertCartridge</Key>
@@ -19144,7 +20096,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tutorial3AtmosAnalyserInfo</Key>
-      <Value>Ligue o {THING:ItemTablet} clicando com o &lt;color=#FBB03B&gt;Botão Direito do Mouse&lt;/color&gt;. O {THING:CartridgeAtmosAnalyser} exibirá a pressão e a temperatura do gás.</Value>
+      <Value>Ligação do {THING:ItemTablet} clicando com o &lt;color=#FBB03B&gt;Botão Direito do Mouse&lt;/color&gt;. O {THING:CartridgeAtmosAnalyser} exibirá a pressão e a temperatura do gás.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AtmosAnalyserInfo2</Key>
@@ -19424,8 +20376,9 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnaceTakeBackpack</Key>
-      <Value>Pegue a {THING:ItemMiningBackPack} Laranja do Armário, abra-a com {KEY:ActiveHandSlot} e arraste um {THING:ItemIronOre} para o Slot de Importação da {THING:StructureArcFurnace}.</Value>
-    </Record>
+      <Value>Pegue a {THING:ItemMiningBackPack} laranja do Armário, abra-a com {KEY:ActiveHandSlot} e arraste um {THING:ItemIronOre} para o slot 
+	    {SLOT:Import} do {THING:StructureArcFurnace}.</Value>
+	</Record>
     <Record>
       <Key>FurnaceTutorialArcFurnacePressButton</Key>
       <Value>Pressione o Botão Vermelho na {THING:StructureArcFurnace} para ativá-la. Em seguida, aguarde um pouco para que o minério seja processado e saia pela parte traseira. Você pode pressionar o botão novamente para pará-la.</Value>
@@ -19720,7 +20673,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupRocketPrinterRocketryForResources</Key>
-      <Value>A Astronáutica é uma ótima maneira de obter muito Gelo e Minério que pode estar faltando no seu planeta.</Value>
+      <Value>A Astronáutica é uma ótima maneira de obter muito Gelo e Minério que você pode estar faltando no seu planeta.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupRocketPrinterConstructIt</Key>
@@ -20431,6 +21384,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Neve</Value>
     </Record>
     <Record>
+      <Key>SolarStormWeather</Key>
+      <Value>Tempestade Solar</Value>
+    </Record>
+    <Record>
       <Key>StationpediaPhaseChangeDiagramPressureTitle</Key>
       <Value>Pressão</Value>
     </Record>
@@ -20553,6 +21510,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>BuyDataBoxOfChocolates</Key>
       <Value>Caixa de Chocolates</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBurgerPackage</Key>
+      <Value>Hambúrguer Embalado</Value>
     </Record>
     <Record>
       <Key>BuyDataChocolateCakeInBox</Key>
@@ -20691,6 +21652,14 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Batata de Crescimento Rápido</Value>
     </Record>
     <Record>
+      <Key>SellDataSuperCorn</Key>
+      <Value>Super Milho</Value>
+    </Record>
+    <Record>
+      <Key>SellDataResilientFern</Key>
+      <Value>Samambaia Resiliente</Value>
+    </Record>
+    <Record>
       <Key>BuyDataBulkVolatiles</Key>
       <Value>Voláteis a Granel</Value>
     </Record>
@@ -20797,6 +21766,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>SellDataBoxOfBatteryCellsLarge</Key>
       <Value>Caixa de Células de Bateria (Grande)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfNuclearBatteryCells</Key>
+      <Value>Caixa de Células de Bateria (Nuclear)</Value>
     </Record>
     <Record>
       <Key>SellDataWeldingFuel</Key>
@@ -21165,6 +22138,14 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>TraderAsteroidAppliances</Key>
       <Value>Aparelhos de Asteroide</Value>
+	</Record>
+    <Record>
+      <Key>TraderGenetics</Key>
+      <Value>Engenharia Genética</Value>
+    </Record>
+    <Record>
+      <Key>TraderRareItems</Key>
+      <Value>Curiosidades Cósmicas</Value>			 
     </Record>
     <Record>
       <Key>TradeError</Key>
@@ -21338,6 +22319,30 @@ Se você quiser tentar converter seus salvamentos, a comunidade criou ferramenta
 Sabemos que perder salvamentos é frustrante, mas essa reescrita estabelece a base para o futuro do Stationeers.
 Obrigado pela sua compreensão, e mal podemos esperar para que você experimente as novidades.
         </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerCapacity</Key>
+      <Value>Capacidade de Energia:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerGeneration</Key>
+      <Value>Geração de Energia Base:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspension</Key>
+      <Value>Suspensão Metabólica</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspensionDesc</Key>
+      <Value>Quando ligado, este dispositivo suspenderá o metabolismo do ocupante, garantindo que ele(a) não consuma mais comida ou água.</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegenerationDesc</Key>
+      <Value>Quando ligado, este dispositivo irá reparar todos os tipos de danos a tecidos e órgãos, além de regenerar ocupantes mortos.</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegeneration</Key>
+      <Value>Regeneração Criogênica</Value>
     </Record>
   </Interface>
   <Colors>
@@ -22707,15 +23712,15 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
 	</Record>
 	<Record>
 	  <Key>Oxite</Key>
-	  <Value>Oxita</Value> <!-- Substância que libera oxigênio -->
+	  <Value>Oxita</Value>
 	</Record>
 	<Record>
 	  <Key>Nitrice</Key>
-	  <Value>Nitrita</Value> <!-- Nome fictício, relacionado ao nitrogênio -->
+	  <Value>Nitrita</Value>
 	</Record>
 	<Record>
 	  <Key>Volatiles</Key>
-	  <Value>Voláteis</Value> <!-- Gases inflamáveis como hidrogênio ou metano -->
+	  <Value>Voláteis</Value>
 	</Record>
 	<Record>
 	  <Key>Gold</Key>
@@ -22747,7 +23752,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
 	</Record>
 	<Record>
 	  <Key>Silicon</Key>
-	  <Value>Silício</Value> <!-- Elemento usado em eletrônicos e placas solares -->
+	  <Value>Silício</Value>
 	</Record>
 	<Record>
 	  <Key>Cobalt</Key>
@@ -27003,11 +28008,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintRatioMustBeComparison</Key>
-      <Value> proporção deve ser {LOCAL:ComparisonOperator} </Value>
+      <Value>proporção deve ser {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintMustBeComparison</Key>
-      <Value> deve ser {LOCAL:ComparisonOperator} </Value>
+      <Value>deve ser {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintPartialPressure</Key>
@@ -27548,7 +28553,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStateDepressurizingInternal</Key>
-      <Value>Depressurizing Internal</Value>
+      <Value>Despressurizando Internamente</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizingExternal</Key>
@@ -28200,7 +29205,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SlotOccupant</Key>
-      <Value>Ocupante</Value>
+      <Value>Ocupado</Value>
     </Record>
     <Record>
       <Key>DeviceNotForSpecies</Key>
@@ -28257,7 +29262,295 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>SuitOperatingRangeText</Key>
       <Value>{LOCAL:Minimum} até {LOCAL:Maximum}</Value>
-    </Record>	  
+    </Record>
+    <Record>
+      <Key>RespawnHere</Key>
+      <Value>Ponto de Reaparecimento Definido</Value>
+    </Record>
+    <Record>
+      <Key>Hydration</Key>
+      <Value>Hidratação</Value>
+    </Record>
+    <Record>
+      <Key>Nutrition</Key>
+      <Value>Nutrição</Value>
+    </Record>
+    <Record>
+      <Key>Oxygenation</Key>
+      <Value>Oxigenação</Value>
+    </Record>
+    <Record>
+      <Key>Stun</Key>
+      <Value>Atordoado</Value>
+    </Record>
+    <Record>
+      <Key>NextWeatherHashDescription</Key>
+      <Value>NextWeatherHash fornece o valor hash do nome do próximo evento climático como um inteiro de 32 bits.</Value>
+    </Record>
+    <Record>
+      <Key>WeatherEventComing</Key>
+      <Value>Um evento climático está se aproximando</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMustBeOutside</Key>
+      <Value>O {LOCAL:Device} não funcionará em ambientes internos</Value>
+    </Record>
+    <Record>
+      <Key>DeviceConfigMode</Key>
+      <Value>Definir para Configurar</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOperateMode</Key>
+      <Value>Definir para Operar</Value>
+    </Record>
+    <Record>
+      <Key>SlotItemProvidesPower</Key>
+      <Value>O {LOCAL:Item} fornece {LOCAL:Power} de energia</Value>
+    </Record>
+    <Record>
+      <Key>CanReplaceFuselage</Key>
+      <Value>Pode substituir outras fuselagens quando estiver segurando um {LOCAL:Tool}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerWillClean</Key>
+      <Value>Vai limpar {LOCAL:Occupant}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerNotInPosition</Key>
+      <Value>{LOCAL:Occupant} não está perto o suficiente do chuveiro</Value>
+    </Record>
+    <Record>
+      <Key>ShowerCannotWhenWearing</Key>
+      <Value>Não é possível tomar banho vestindo {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>NamedThingDamageIsAt</Key>
+      <Value>{LOCAL:Thing} {LOCAL:DamageType} está em {LOCAL:Percent}</Value>
+    </Record>
+    <Record>
+      <Key>CoolingAmount</Key>
+      <Value>Resfriando {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HeatingAmount</Key>
+      <Value>Aquecendo {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionFreeSlots</Key>
+      <Value>O número de espaços livres disponíveis neste objeto.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTotalSlots</Key>
+      <Value>O número total de espaços disponíveis neste objeto.</Value>
+    </Record>
+    <Record>
+      <Key>UnidentifiedPlayer</Key>
+      <Value>Jogador não identificado</Value>
+    </Record>
+    <Record>
+      <Key>PlayerHasAlreadyRespawned</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; já &lt;color=yellow&gt;ressurgiu&lt;/color&gt; e não pode ser revivido.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBodyBagDead</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; está &lt;color=red&gt;morto&lt;/color&gt; no saco mortuário e aguardando para ser revivido.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOnline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; está &lt;color=green&gt;online&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOffline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; está &lt;color=yellow&gt;offline&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>BodyBagName</Key>
+      <Value>Saco Mortuário(&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt;)</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBelongings</Key>
+      <Value>Pertences</Value>
+    </Record>
+    <Record>
+      <Key>PlayerReviveInCryotube</Key>
+      <Value>Coloque &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; em um &lt;color=green&gt;Criotubo&lt;/color&gt; para reviver.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpUnconscious</Key>
+      <Value>{LOCAL:UserName} está em apuros e precisa de ajuda.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpDead</Key>
+      <Value>{LOCAL:UserName} está morto. Ele(a) solicitou ser revivido(a) em um Criotubo.</Value>
+    </Record>
+    <Record>
+      <Key>FoodContainerDecayReduction</Key>
+      <Value>Decomposição reduzida para {LOCAL:Percent} dentro de {LOCAL:Container}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotClosed</Key>
+      <Value>O {LOCAL:Device} deve estar fechado para operar</Value>
+    </Record>
+    <Record>
+      <Key>CannotInteract</Key>
+      <Value>Não é possível interagir</Value>
+    </Record>
+    <Record>
+      <Key>EnergyTransfer</Key>
+      <Value>Transferência de Energia</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeArea</Key>
+      <Value>Área de Superfície</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeFromTo</Key>
+      <Value>Trocando de {LOCAL:Input1} para {LOCAL:Input2}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoPayload</Key>
+      <Value>{LOCAL:Thing} não possui carga</Value>
+    </Record>
+    <Record>
+      <Key>EntityStarving</Key>
+      <Value>Morrendo de fome</Value>
+    </Record>
+    <Record>
+      <Key>EntityRespawnStress</Key>
+      <Value>Fatigado pelo reaparecimento</Value>
+    </Record>
+    <Record>
+      <Key>ConsumptionSpeed</Key>
+      <Value>Velocidade de Consumo</Value>
+    </Record>
+    <Record>
+      <Key>ToolUseSpeed</Key>
+      <Value>Velocidade da Ferramenta</Value>
+    </Record>
+    <Record>
+      <Key>TradePenalty</Key>
+      <Value>Penalidade de Troca</Value>
+    </Record>
+    <Record>
+      <Key>DeviceIsNotOperable</Key>
+      <Value>O dispositivo não pode ser operado</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoPad</Key>
+      <Value>Bombear para a plataforma de pouso</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoTank</Key>
+      <Value>Bombear para o tanque</Value>
+    </Record>
+    <Record>
+      <Key>Inward</Key>
+      <Value>Entrada</Value>
+    </Record>
+    <Record>
+      <Key>Outward</Key>
+      <Value>Saída</Value>
+    </Record>
+    <Record>
+      <Key>Warning</Key>
+      <Value>Aviso</Value>
+    </Record>
+    <Record>
+      <Key>Critical</Key>
+      <Value>Crítico</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureO2</Key>
+      <Value>Pressão Parcial de Oxigênio</Value>
+    </Record>
+    <Record>
+      <Key>LungsEfficiency</Key>
+      <Value>Eficiência Respiratória</Value>
+    </Record>
+    <Record>
+      <Key>ToxinDamage</Key>
+      <Value>Dano por Toxina</Value>
+    </Record>
+    <Record>
+      <Key>BurnDamage</Key>
+      <Value>Dano por Queimadura</Value>
+    </Record>
+    <Record>
+      <Key>VacuumDamage</Key>
+      <Value>Dano por Vácuo</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfFood</Key>
+      <Value>Perdendo saúde devido à falta de comida</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfWater</Key>
+      <Value>Perdendo saúde devido à falta de água</Value>
+    </Record>
+    <Record>
+      <Key>RobotHasNoBattery</Key>
+      <Value>Falta de bateria</Value>
+    </Record>
+    <Record>
+      <Key>RobotBatteryNoCharge</Key>
+      <Value>A bateria não possui carga</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureN2O</Key>
+      <Value>Pressão Parcial do Óxido Nitroso</Value>
+    </Record>
+    <Record>
+      <Key>Refreshed</Key>
+      <Value>Revigorado</Value>
+    </Record>
+    <Record>
+      <Key>MovementSpeed</Key>
+      <Value>Velocidade de Movimento</Value>
+    </Record>
+    <Record>
+      <Key>Hygiene</Key>
+      <Value>Higiene</Value>
+    </Record>
+    <Record>
+      <Key>UnviableEggNotice</Key>
+      <Value>O {LOCAL:Name} não é viável</Value>
+    </Record>
+    <Record>
+      <Key>WillHatchInto</Key>
+      <Value>Chocará e se tornará um {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ViableEggNotice</Key>
+      <Value>A incubação requer {LOCAL:MinTemp} a {LOCAL:MaxTemp}</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodDecreasing</Key>
+      <Value>O humor está diminuindo</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodIncreasing</Key>
+      <Value>O humor está aumentando</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneDecreasing</Key>
+      <Value>A higiene está diminuindo</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneIncreasing</Key>
+      <Value>A higiene está aumentando</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooCold</Key>
+      <Value>O ovo está muito frio</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooHot</Key>
+      <Value>O ovo está muito quente</Value>
+    </Record>
+	<Record>
+      <Key>FertilizedEggProcess</Key>
+      <Value>O {LOCAL:Thing} é {LOCAL:Percent} para eclosão</Value>
+    </Record>
   </GameStrings>
   <GameTip />
 </Language>
