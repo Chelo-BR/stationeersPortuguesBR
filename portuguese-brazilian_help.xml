@@ -2,7 +2,7 @@
   <Name>Português (Brasil)</Name>
   <Code>PB</Code>
   <HelpPage>
-  <!--Traducao Marcelo 17/10/2025 versao 26176-->  
+  <!--Traducao Marcelo 11/12/2025 versao 26682-->  
 <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                 MASTER PAGES            |
@@ -280,7 +280,7 @@ Boa sorte, Cadete!
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Minérios</Title>
-      <Text>Esses são itens que podem ser {LINK:MiningPage;minerados} e geralmente podem ser {LINK:SmeltingPage;fundidos}. Você também pode obter minério misto reciclando itens na {THING:StructureRecycler} e depois processando-os na {THING:StructureCentrifuge}, que os separará em {LINK:OrePage;minério} pronto para {LINK:SmeltingPage;fundição}. 
+      <Text>Esses são itens que podem ser {LINK:MiningPage;minerados} e geralmente podem ser {LINK:SmeltingPage;fundidos}. Você também pode obter minério misto reciclando itens no {THING:StructureRecycler} e depois processando-os na {THING:StructureCentrifuge}, que os separará em {LINK:OrePage;minério} pronto para {LINK:SmeltingPage;fundição}. 
 Alguns minérios derretem quando expostos à luz solar ou ao calor, liberando {LINK:GasPage;gases}. Por exemplo, {THING:ItemIce} derrete em {GAS:Water} e {GAS:Oxygen}. Tome cuidado para manter esses materiais longe de fontes de calor ou da luz solar até o momento em que realmente desejar que derretam.{LIST_OF_ORES}
       </Text>
     </StationpediaPage>
@@ -518,7 +518,7 @@ Pressão de Fusão {0}</Text>
     <StationpediaPage>
       <Key>LogicTransmitHeaderTemplate</Key>
       <Text>
-{LIST}{0}{/LIST}
+		{LIST}{0}{/LIST}
       </Text>
     </StationpediaPage>
 
