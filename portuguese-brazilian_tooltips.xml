@@ -2,7 +2,7 @@
   <Name>Português (Brasil)</Name>
   <Code>PB</Code>
   <Font>font_english</Font>
-  <!--Traducao Marcelo 17/10/2025 versao 26176-->
+  <!--Traducao Marcelo 11/12/2025 versao 26682-->
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
@@ -191,6 +191,22 @@
     <Record>
       <Key>StatusIconLeavingAreaDesc</Key>
       <Value>Fora dos limites, retorne</Value>
+	</Record>
+    <Record>
+      <Key>StatusIconRespawnStressName</Key>
+      <Value>Estresse de Renascer</Value>
+    </Record>
+	<Record>
+      <Key>StatusIconRespawnStressDesc</Key>
+      <Value>Afecta a velocidade das ações</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantName</Key>
+      <Value>Temperatura do tanque de líquido de arrefecimento</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantDesc</Key>
+      <Value>A temperatura do líquido de arrefecimento está muito alta</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>
