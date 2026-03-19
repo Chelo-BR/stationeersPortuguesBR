@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 17/03/2026 v0.2.6182.26959-->
+  <Code>PB</Code>  <!--Tradução Marcelo 18/03/2026 v0.2.6182.26959-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -28085,11 +28085,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintContainsItemInSlot</Key>
-      <Value>Contém um &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt; no &lt;color=orange&gt;{LOCAL:SlotName}&lt;/color&gt; slot</Value>
+      <Value>Contém um &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt; no slot &lt;color=orange&gt;{LOCAL:SlotName}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>HelperHintRoomState</Key>
-      <Value>Em um &lt;color=yellow&gt;{LOCAL:RoomType}&lt;/color&gt; sala</Value>
+      <Value>Em uma sala &lt;color=yellow&gt;{LOCAL:RoomType}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>HelperHintAnyRoomState</Key>
@@ -28105,11 +28105,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintRatioMustBeComparison</Key>
-      <Value>proporção deve ser {LOCAL:ComparisonOperator} </Value>
+      <Value>A proporção deve ser {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintMustBeComparison</Key>
-      <Value>deve ser {LOCAL:ComparisonOperator} </Value>
+      <Value>Deve ser {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintPartialPressure</Key>
@@ -28117,11 +28117,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintDecayComparison</Key>
-      <Value>Decadência {LOCAL:ComparisonOperator} </Value>
+      <Value>Decaimento {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintSpeciesState</Key>
-      <Value>Espécies de Jogador </Value>
+      <Value>Espécie do jogador </Value>
     </Record>
     <Record>
       <Key>HelperHintContainsComparison</Key>
@@ -28129,7 +28129,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintHumanCondition</Key>
-      <Value>pendência</Value>
+      <Value>Todo</Value>
     </Record>
     <Record>
       <Key>HelperHintInCellCondition</Key>
@@ -28137,11 +28137,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NoRocketCargoBay</Key>
-      <Value>Este foguete não tem compartimento de carga para implantação</Value>
+      <Value>Este foguete não possui compartimento de carga para implantação</Value>
     </Record>
     <Record>
       <Key>RocketDeployActionInfo</Key>
-      <Value>Baía de carga: {LOCAL:OnOff}, Estado: {LOCAL:Open}, Progresso: {LOCAL:Progress}</Value>
+      <Value>Compartimento de Carga: {LOCAL:OnOff}, Estado: {LOCAL:Open}, Progresso: {LOCAL:Progress}</Value>
     </Record>
     <Record>
       <Key>TutorialYouDied</Key>
@@ -28153,7 +28153,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RoomState</Key>
-      <Value>em um {LOCAL:RoomType}</Value>
+      <Value>em uma {LOCAL:RoomType}</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionDescription</Key>
@@ -28169,7 +28169,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ObjectiveIsCompletedCondition</Key>
-      <Value>{LOCAL:Objective} deve primeiro ser concluído</Value>
+      <Value>{LOCAL:Objective} deve ser concluído primeiro</Value>
     </Record>
     <Record>
       <Key>InteractableMustBeOn</Key>
@@ -28189,7 +28189,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InteractableMustBePowered</Key>
-      <Value>Deve ser alimentado</Value>
+      <Value>Deve estar energizado</Value>
     </Record>
     <Record>
       <Key>InteractableMustBeUnpowered</Key>
@@ -28209,7 +28209,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Infinity</Key>
-      <Value>Infinidade</Value>
+      <Value>Infinito</Value>
     </Record>
     <Record>
       <Key>SurvivalPropertyCondition</Key>
@@ -28225,11 +28225,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CarbonDioxideRatio</Key>
-      <Value>Razão de dióxido de carbono &lt;color=green&gt;{LOCAL:Ratio}&lt;/color&gt;</Value>
+      <Value>Proporção de Dióxido de Carbono &lt;color=green&gt;{LOCAL:Ratio}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StressedToFailure</Key>
-      <Value>&lt;color=red&gt; Estressado ao fracasso &lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt; Sob estresse até a falha &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MachineTemperature</Key>
@@ -28237,7 +28237,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DispersalTowerNotEnoughPressure</Key>
-      <Value>A pressão interna deve estar acima {LOCAL:Target}</Value>
+      <Value>A pressão interna deve estar acima de {LOCAL:Target}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticCreativeMode</Key>
@@ -28249,11 +28249,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticWeatherDamage</Key>
-      <Value>Danos climáticos</Value>
+      <Value>Dano climático</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticCalmWeather</Key>
-      <Value>Tempo calmo</Value>
+      <Value>Clima calmo</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticMetabolism</Key>
@@ -28269,7 +28269,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticBreathing</Key>
-      <Value>Respirando</Value>
+      <Value>Respiração</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticRobotBattery</Key>
@@ -28277,7 +28277,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticMoonReduction</Key>
-      <Value>Redução da lua</Value>
+      <Value>Redução lunar</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticHygeineReduction</Key>
@@ -28285,7 +28285,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticFoodDecay</Key>
-      <Value>Decadência alimentar</Value>
+      <Value>Deterioração de alimentos</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticJetpackConsumption</Key>
@@ -28297,11 +28297,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticLungDamage</Key>
-      <Value>Danos pulmonares</Value>
+      <Value>Dano pulmonar</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticOfflineMetabolism</Key>
-      <Value>Metabolismo off-line</Value>
+      <Value>Metabolismo offline</Value>
     </Record>
     <Record>
       <Key>DownlinkConnectedToNothing</Key>
@@ -28313,7 +28313,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceParentRocket</Key>
-      <Value>Pai Principal {LOCAL:RocketName}</Value>
+      <Value>Nave mãe {LOCAL:RocketName}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketMass</Key>
@@ -28325,11 +28325,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketThrustToWeight</Key>
-      <Value>Empuxo para Peso {LOCAL:ThrustToWeight}</Value>
+      <Value>Relação empuxo/peso {LOCAL:ThrustToWeight}</Value>
     </Record>
     <Record>
       <Key>MolesPerHour</Key>
-      <Value>{LOCAL:Value} Moles por hora</Value>
+      <Value>{LOCAL:Value} mols por hora</Value>
     </Record>
     <Record>
       <Key>InhaledGassesStationpedia</Key>
@@ -28353,11 +28353,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StartGameFailurePromptNameExists</Key>
-      <Value>Já existe um save com este nome</Value>
+      <Value>Já existe um salvamento com esse nome</Value>
     </Record>
     <Record>
       <Key>OverwriteConfirmation</Key>
-      <Value>Substituir</Value>
+      <Value>Sobrescrever</Value>
     </Record>
     <Record>
       <Key>JetpackStabilizerState</Key>
@@ -28369,11 +28369,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MiningDrillModeFlatten</Key>
-      <Value>Achatar</Value>
+      <Value>Aplainar</Value>
     </Record>
     <Record>
       <Key>FlashLightModeLowPower</Key>
-      <Value>Baixo consumo de energia</Value>
+      <Value>Baixa potência</Value>
     </Record>
     <Record>
       <Key>FlashLightModeHighPower</Key>
@@ -28385,11 +28385,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>VentDirectionOutward</Key>
-      <Value>Externo</Value>
+      <Value>Para fora</Value>
     </Record>
     <Record>
       <Key>InputPanelSelectRecipe</Key>
-      <Value>Selecione a receita</Value>
+      <Value>Selecionar receita</Value>
     </Record>
     <Record>
       <Key>GasTemperature</Key>
@@ -28405,15 +28405,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingHealth</Key>
-      <Value>Saúde {LOCAL:Value}</Value>
+      <Value>Integridade {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CannotPlaceOutsideRocket</Key>
-      <Value>Não pode ser colocado fora de um foguete</Value>
+      <Value>Não é possível colocar fora de um foguete</Value>
     </Record>
     <Record>
       <Key>DamageTypeDecay</Key>
-      <Value>Decadência</Value>
+      <Value>Decaimento</Value>
     </Record>
     <Record>
       <Key>DamageTypeDamage</Key>
@@ -28425,7 +28425,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AdvancedComposterCurrentlyProcessing</Key>
-      <Value>Atualmente processando...</Value>
+      <Value>Processando...</Value>
     </Record>
     <Record>
       <Key>AdvancedComposterItemsLeftToGrind</Key>
@@ -28437,11 +28437,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserActual</Key>
-      <Value>Real {LOCAL:Value}</Value>
+      <Value>Atual {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserRequired</Key>
-      <Value>Obrigatório {LOCAL:Value}</Value>
+      <Value>Necessário {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserPotential</Key>
@@ -28457,7 +28457,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>EntityWheezing</Key>
-      <Value>Chiado</Value>
+      <Value>Ofegante</Value>
     </Record>
     <Record>
       <Key>EntityHungry</Key>
@@ -28477,7 +28477,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AirControlStatusDraught</Key>
-      <Value>RASCUNHO</Value>
+      <Value>CORRENTE DE AR</Value>
     </Record>
     <Record>
       <Key>AirControlStatusError</Key>
@@ -28502,7 +28502,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AirControlModeDraught</Key>
-      <Value>Rascunho</Value>
+      <Value>Corrente de ar</Value>
     </Record>
     <Record>
       <Key>AirControlModePressure</Key>
@@ -28518,11 +28518,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CircuitboardMakeSlaveLabel</Key>
-      <Value>Definir como Escravo</Value> <!-- Master/Slave: hierarquia de controle -->
+      <Value>TORNAR ESCRAVO</Value> <!-- Master/Slave: hierarquia de controle -->
     </Record>
     <Record>
       <Key>InputPanelFilterDevicesTitle</Key>
-      <Value>Dispositivos de filtro</Value>
+      <Value>Filtrar dispositivos</Value>
     </Record>
     <Record>
       <Key>SolarControlPanelsCount</Key>
@@ -28602,7 +28602,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PowerControlPower</Key>
-      <Value>FORÇA</Value>
+      <Value>ENERGIA</Value>
     </Record>
     <Record>
       <Key>PowerControlPowerOff</Key>
@@ -28622,51 +28622,51 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateInwardsLimited</Key>
-      <Value>Limitada para dentro</Value>
+      <Value>Entrada limitada</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateInwardsVeryLimited</Key>
-      <Value>Internamente muito limitado</Value>
+      <Value>Entrada muito limitada</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateOutwardsLimited</Key>
-      <Value>Externamente Limitado</Value>
+      <Value>Saída limitada</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateOutwardsVeryLimited</Key>
-      <Value>Externamente muito limitado</Value>
+      <Value>Saída muito limitada</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateIdle</Key>
-      <Value>Parado</Value>
+      <Value>Inativo</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizingInternal</Key>
-      <Value>Pressurização Interna</Value>
+      <Value>Pressurizando interno</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizedInternal</Key>
-      <Value>Pressurizado Interno</Value>
+      <Value>Interno pressurizado</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStateDepressurizingInternal</Key>
-      <Value>Despressurizando Internamente</Value>
+      <Value>Despressurizando interno</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizingExternal</Key>
-      <Value>Pressurização Externa</Value>
+      <Value>Pressurizando externo</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizedExternal</Key>
-      <Value>Pressurizado Externo</Value>
+      <Value>Externo pressurizado</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStateDepressurizingExternal</Key>
-      <Value>Despressurização Externa</Value>
+      <Value>Despressurizando externo</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateDisabled</Key>
-      <Value>Desabilitado</Value>
+      <Value>Desativado</Value>
     </Record>
     <Record>
       <Key>AirlockControlStatePressurizing</Key>
@@ -28686,11 +28686,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateOverrideCount</Key>
-      <Value>Substituir contagem</Value>
+      <Value>Quantidade de sobrescritas</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateOverride</Key>
-      <Value>Substituir</Value>
+      <Value>Sobrescrever</Value>
     </Record>
     <Record>
       <Key>IngotTypeBasic</Key>
@@ -28726,7 +28726,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RecipeTemperatureRangeSeporator</Key>
-      <Value> para </Value>
+      <Value> até </Value>
     </Record>
     <Record>
       <Key>ConstructableInRocketsTrue</Key>
@@ -28766,11 +28766,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ConnectionRoleWaste</Key>
-      <Value>Desperdício</Value>
+      <Value>Resíduo</Value>
     </Record>
     <Record>
       <Key>NetworkTypePipe</Key>
-      <Value>Cano</Value>
+      <Value>Tubo</Value>
     </Record>
     <Record>
       <Key>NetworkTypePower</Key>
@@ -28790,7 +28790,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NetworkTypePipeLiquid</Key>
-      <Value>Líquido para tubos</Value>
+      <Value>Tubo de líquido</Value>
     </Record>
     <Record>
       <Key>NetworkTypeLandingPad</Key>
@@ -28802,7 +28802,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NetworkTypeRoboticArmRail</Key>
-      <Value>Trilho de braço robótico</Value>
+      <Value>Trilho do braço robótico</Value>
     </Record>
     <Record>
       <Key>NetworkTypePowerAndData</Key>
@@ -28822,7 +28822,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DaylightSensorGridSunlight</Key>
-      <Value>Grade de luz solar {LOCAL:Value}</Value>
+      <Value>Luz solar da grade {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>DaylightSensorSolarAngle</Key>
@@ -28846,47 +28846,47 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DaylightSensorModeError</Key>
-      <Value>Modo {LOCAL:Value} ERROR</Value>
+      <Value>Modo {LOCAL:Value} ERRO</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateEmpty</Key>
-      <Value>Vazio</Value>
+      <Value>Vazia</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateCritical</Key>
-      <Value>Crítico</Value>
+      <Value>Crítica</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateLow</Key>
-      <Value>Baixo</Value>
+      <Value>Baixa</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateVeryLow</Key>
-      <Value>Muito baixo</Value>
+      <Value>Muito baixa</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateMedium</Key>
-      <Value>Médio</Value>
+      <Value>Média</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateHigh</Key>
-      <Value>Alto</Value>
+      <Value>Alta</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateFull</Key>
-      <Value>Completo</Value>
+      <Value>Cheia</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardCurrentlyTrading</Key>
-      <Value>Atualmente negociando</Value>
+      <Value>Negociando no momento</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardTimeTillResolveUnknown</Key>
-      <Value>Tempo até resolver desconhecido</Value>
+      <Value>Tempo para conclusão desconhecido</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardSecondsTillResolve</Key>
-      <Value>{LOCAL:Value}s até resolver</Value>
+      <Value>{LOCAL:Value} s para conclui</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardDegreesFromContact</Key>
@@ -28898,7 +28898,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardContacted</Key>
-      <Value>Contatado</Value>
+      <Value>Contato estabelecido</Value>
     </Record>
     <Record>
       <Key>CommsTerminalInterrogationInProgressAnother</Key>
@@ -28914,7 +28914,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CommTerminalEstimatedSecondsUntilInterrogated</Key>
-      <Value>estimado {LOCAL:Value}s até interrogado</Value>
+      <Value>estimado {LOCAL:Value}s até ser interrogado</Value>
     </Record>
     <Record>
       <Key>CommsTerminalDishInUse</Key>
@@ -28922,27 +28922,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CommsTerminalLandTraderButton</Key>
-      <Value>Terra</Value>
+      <Value>Pousar</Value>
     </Record>
     <Record>
       <Key>CommsTerminalContactingComplete</Key>
-      <Value>Contato concluído, continue ligando para o comerciante</Value>
+      <Value>Contato concluído, prossiga para chamar o comerciante</Value>
     </Record>
     <Record>
       <Key>CommsTerminalContactRequires</Key>
-      <Value>O contato requer {LOCAL:Value}W para {LOCAL:Time}s</Value>
+      <Value>O contato requer {LOCAL:Value}W por {LOCAL:Time}s</Value>
     </Record>
     <Record>
       <Key>CommsTerminalDishBusy</Key>
-      <Value>Antena parabólica de maior potência ocupada. Aguarde ou use um terminal de comunicação separado.</Value>
+      <Value>Antena parabólica de maior potência ocupada. Aguarde ou utilize outro Terminal de Comunicações.</Value>
     </Record>
     <Record>
       <Key>CommsTerminalInterrogateButton</Key>
-      <Value>Interrogar</Value>
+      <Value>Escanear</Value>
     </Record>
     <Record>
       <Key>CommsTerminalNotEnoughEnergy</Key>
-      <Value>Não há energia suficiente direcionada ao contato para interrogar</Value>
+      <Value>Energia insuficiente direcionada ao contato para escanear</Value>
     </Record>
     <Record>
       <Key>TradeActionCharge</Key>
@@ -28958,7 +28958,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicReadWrite</Key>
-      <Value>Ler Escrever</Value>
+      <Value>Ler/Escrever</Value>
     </Record>
     <Record>
       <Key>MemoryAccessNone</Key>
@@ -28990,7 +28990,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ReEntryProfileMax</Key>
-      <Value>Max</Value>
+      <Value>Máximo</Value>
     </Record>
     <Record>
       <Key>SpaceMapUknownDeltaV</Key>
@@ -29062,15 +29062,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TimeLengthEon</Key>
-      <Value>era</Value>
+      <Value>Era (tempo longo)</Value>
     </Record>
     <Record>
       <Key>TimeLengthAeons</Key>
-      <Value>eras</Value>
+      <Value>Eras (tempo longo)</Value>
     </Record>
     <Record>
       <Key>FabricatorFindRecipe</Key>
-      <Value>Encontre receita</Value>
+      <Value>Encontrar receita</Value>
     </Record>
     <Record>
       <Key>FabricatorUknownRecipe</Key>
@@ -29078,7 +29078,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>EntityDeceased</Key>
-      <Value>Morto/Morta</Value>
+      <Value>Falecido(a)</Value>
     </Record>
     <Record>
       <Key>EntityUnconsious</Key>
@@ -29086,19 +29086,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRequestingCharacter</Key>
-      <Value>Personagem Solicitante</Value>
+      <Value>Solicitando personagem</Value>
     </Record>
     <Record>
       <Key>SaveInvalidTerrainDataModified</Key>
-      <Value>Dados salvos do terreno inválidos. Este mundo foi modificado.</Value>
+      <Value>Dados de terreno inválidos. Este mundo foi modificado.</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticMoodReduction</Key>
-      <Value>Redução do humor</Value>
+      <Value>Redução de humor</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticHygieneReduction</Key>
-      <Value>Redução da higiene</Value>
+      <Value>Redução de higiene</Value>
     </Record>
     <Record>
       <Key>PressToExit</Key>
@@ -29110,7 +29110,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ResetTerrainButton</Key>
-      <Value>Reiniciar Terreno</Value>
+      <Value>Redefinir terreno</Value>
     </Record>
     <Record>
       <Key>CancelLoadButton</Key>
@@ -29138,23 +29138,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ProportionalGainDescription</Key>
-      <Value>O ganho proporcional do controlador PID. Este valor determina quão agressivamente o controlador responde ao erro entre o ponto de ajuste e a variável do processo. Um valor mais alto resulta em uma resposta mais rápida, mas pode causar ultrapassagem ou instabilidade.</Value>
+      <Value>O ganho proporcional do controlador PID. Este valor determina quão agressivamente o controlador responde ao erro entre o ponto de ajuste e a variável do processo. Um valor mais alto resulta em uma resposta mais rápida, mas pode levar a overshoot ou instabilidade.</Value>
     </Record>
     <Record>
       <Key>IntegralGainDescription</Key>
-      <Value>O ganho integral do controlador PID. Este valor determina quanto o controlador responde ao erro acumulado ao longo do tempo. Um valor mais alto pode ajudar a eliminar erros em regime permanente, mas também pode causar oscilações ou instabilidade.</Value>
+      <Value>O ganho integral do controlador PID. Este valor determina o quanto o controlador responde ao erro acumulado ao longo do tempo. Um valor mais alto pode ajudar a eliminar erros em regime permanente, mas também pode levar a oscilações ou instabilidade.</Value>
     </Record>
     <Record>
       <Key>DerivativeGainDescription</Key>
-      <Value>O ganho derivativo do controlador PID. Este valor determina quanto o controlador responde à taxa de variação do erro. Um valor mais alto pode ajudar a amortecer oscilações e melhorar a estabilidade, mas também pode amplificar ruídos.</Value>
+      <Value>O ganho derivativo do controlador PID. Este valor determina o quanto o controlador responde à taxa de variação do erro. Um valor mais alto pode ajudar a reduzir oscilações e melhorar a estabilidade, mas também pode amplificar ruídos.</Value>
     </Record>
     <Record>
       <Key>ResetDescription</Key>
-      <Value>Redefine o estado interno do controlador PID, limpando qualquer erro acumulado e reiniciando a saída para zero. Isso é útil para começar do zero ou se recuperar de um estado instável.</Value>
+      <Value>Redefine o estado interno do controlador PID, limpando qualquer erro acumulado e redefinindo a saída para zero. Isso é útil para iniciar novamente ou recuperar de um estado instável.</Value>
     </Record>
     <Record>
       <Key>SetpointDescription</Key>
-      <Value>O valor desejado que o controlador PID busca atingir. Este é o valor-alvo da variável do processo, e o controlador ajustará sua saída para minimizar a diferença entre o ponto de ajuste e a variável do processo.</Value>
+      <Value>O valor desejado que o controlador PID busca alcançar. Este é o valor alvo para a variável do processo, e o controlador ajustará sua saída para minimizar a diferença entre o ponto de ajuste e a variável do processo.</Value>
     </Record>
     <Record>
       <Key>MinimumDescription</Key>
@@ -29162,23 +29162,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NetworkFaultDescription</Key>
-      <Value>A rede conectada está apresentando uma falha, como um rompimento de tubulação ou outro tipo de defeito.</Value>
+      <Value>A rede conectada está apresentando uma falha, como um rompimento de tubulação ou outro tipo de problema.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionMaturityRatio</Key>
-      <Value>Indica o quão próxima a planta está da maturidade, representada como uma fração entre 0 e 1, sendo 1 o ponto em que está madura e pronta para a colheita.</Value>
+      <Value>Indica o quanto a planta está próxima da maturidade, representado como uma fração entre 0 e 1, sendo 1 madura e pronta para colheita.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionSeedingRatio</Key>
-      <Value>Indica o quão próxima a planta está da fase de produção de sementes, representada como uma fração entre 0 e 1, sendo 1 o ponto em que está produzindo sementes e irá fornecê-las quando colhida.</Value>
+      <Value>Indica o quanto a planta está próxima de produzir sementes, representado como uma fração entre 0 e 1, sendo 1 pronta para gerar sementes ao ser colhida.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionBdnvl</Key>
-      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de carregamento do tipo lógico especificado..</Value>
+      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de leitura para o tipo lógico especificado.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionBdnvs</Key>
-      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de armazenamento do tipo lógico especificado.</Value>
+      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de escrita para o tipo lógico especificado.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionPow</Key>
@@ -29186,11 +29186,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionExt</Key>
-      <Value>Extrai um campo de bits de “a”, começando em “b” e com comprimento “c”, colocando o resultado no registrador especificado. A carga útil não pode exceder 53 bits de comprimento final.</Value>
+      <Value>Extrai um campo de bits de “a”, começando em “b” e com comprimento “c”, colocando o resultado no registrador especificado. O tamanho final não pode exceder 53 bits.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionIns</Key>
-      <Value>Insere um campo de bits de “a” no registrador especificado, começando em “b” e com comprimento “c”. A carga útil não pode exceder 53 bits de comprimento final.</Value>
+      <Value>Insere um campo de bits de “a” no registrador especificado, começando em “b” e com comprimento “c”. O tamanho final não pode exceder 53 bits.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionLerp</Key>
@@ -29214,7 +29214,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>IceCrusherHeating</Key>
-      <Value>Operação desacelerada enquanto aquece até a temperatura alvo de {LOCAL:Temperature}</Value>
+      <Value>Operação reduzida durante o aquecimento até a temperatura alvo de {LOCAL:Temperature}</Value>
     </Record>
     <Record>
       <Key>IceCrusherIndicatorHeat</Key>
@@ -29222,7 +29222,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>IceCrusherIndicatorIdle</Key>
-      <Value>Ocioso</Value>
+      <Value>Inativo</Value>
     </Record>
     <Record>
       <Key>IceCrusherAtmosFull</Key>
@@ -29242,7 +29242,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CryoLiquidVolumeTooLow</Key>
-      <Value>O volume do líquido criogênico deve estar acima de {LOCAL:Volume}</Value>
+      <Value>O volume do líquido criogênico deve ser maior que {LOCAL:Volume}</Value>
     </Record>
     <Record>
       <Key>CryoLiquidTemperatureTooHigh</Key>
@@ -29258,7 +29258,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SleeperState</Key>
-      <Value>Status do Dormitório</Value>
+      <Value>Status da cápsula de sono</Value>
     </Record>
     <Record>
       <Key>SleeperMetabolicSuspension</Key>
@@ -29286,7 +29286,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PatchingRecipe</Key>
-      <Value>{LOCAL:ModName} está ajustando a receita para {LOCAL:PrefabName}</Value>
+      <Value>{LOCAL:ModName} está modificando a receita de {LOCAL:PrefabName}</Value>
     </Record>
     <Record>
       <Key>UnknownMod</Key>
@@ -29298,7 +29298,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SlotVacant</Key>
-      <Value>Vago</Value>
+      <Value>Vazio</Value>
     </Record>
     <Record>
       <Key>SlotOccupant</Key>
@@ -29306,7 +29306,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceNotForSpecies</Key>
-      <Value>O dispositivo não pode ser ocupado por {LOCAL:Species}</Value>
+      <Value>O dispositivo não pode ser utilizado por {LOCAL:Species}</Value>
     </Record>
     <Record>
       <Key>DeviceNotConstructed</Key>
@@ -29314,7 +29314,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DevicePressureTooHigh</Key>
-      <Value>{LOCAL:Thing} excede sua pressão interna máxima</Value>
+      <Value>{LOCAL:Thing} excede seu limite de pressão interna</Value>
     </Record>
     <Record>
       <Key>RocketGasCollectActionInfo</Key>
@@ -29322,11 +29322,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CryoAtmosphereIsUnsafe</Key>
-      <Value>A atmosfera respirável está insegura</Value>
+      <Value>A atmosfera respirável é insegura</Value>
     </Record>
     <Record>
       <Key>CryoNoAtmosphericInput</Key>
-      <Value>Sem rede de gás respirável</Value>
+      <Value>Sem rede de gases respiráveis</Value>
     </Record>
     <Record>
       <Key>CryoNoLiquidInput</Key>
@@ -29394,11 +29394,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceConfigMode</Key>
-      <Value>Definir para Configurar</Value>
+      <Value>Definido para Configurar</Value>
     </Record>
     <Record>
       <Key>DeviceOperateMode</Key>
-      <Value>Definir para Operar</Value>
+      <Value>Definido para Operar</Value>
     </Record>
     <Record>
       <Key>SlotItemProvidesPower</Key>
@@ -29414,7 +29414,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ShowerNotInPosition</Key>
-      <Value>{LOCAL:Occupant} não está perto o suficiente do chuveiro</Value>
+      <Value>{LOCAL:Occupant} não está próximo o suficiente para usar o chuveiro</Value>
     </Record>
     <Record>
       <Key>ShowerCannotWhenWearing</Key>
@@ -29426,19 +29426,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CoolingAmount</Key>
-      <Value>Resfriando {LOCAL:Value}</Value>
+      <Value>Resfriamento {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>HeatingAmount</Key>
-      <Value>Aquecendo {LOCAL:Value}</Value>
+      <Value>Aquecimento {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionFreeSlots</Key>
-      <Value>O número de espaços livres disponíveis neste objeto.</Value>
+      <Value>O número de slots livres disponíveis neste objeto.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionTotalSlots</Key>
-      <Value>O número total de espaços disponíveis neste objeto.</Value>
+      <Value>O número total de slots disponíveis neste objeto.</Value>
     </Record>
     <Record>
       <Key>UnidentifiedPlayer</Key>
@@ -29470,7 +29470,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlayerReviveInCryotube</Key>
-      <Value>Coloque &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; em um &lt;color=green&gt;Criotubo&lt;/color&gt; para reviver.</Value>
+      <Value>Coloque &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; em um &lt;color=green&gt;Tubo Criogênico&lt;/color&gt; para reviver.</Value>
     </Record>
     <Record>
       <Key>PlayerRequestHelpUnconscious</Key>
@@ -29478,11 +29478,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlayerRequestHelpDead</Key>
-      <Value>{LOCAL:UserName} está morto. Ele(a) solicitou ser revivido(a) em um Criotubo.</Value>
+      <Value>{LOCAL:UserName} está morto. Ele(a) solicitou que seja revivido em um Tubo Criogênico.</Value>
     </Record>
     <Record>
       <Key>FoodContainerDecayReduction</Key>
-      <Value>Decomposição reduzida para {LOCAL:Percent} dentro de {LOCAL:Container}</Value>
+      <Value>Deterioração reduzida para {LOCAL:Percent} dentro de {LOCAL:Container}</Value>
     </Record>
     <Record>
       <Key>DeviceNotClosed</Key>
@@ -29522,15 +29522,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ToolUseSpeed</Key>
-      <Value>Velocidade da Ferramenta</Value>
+      <Value>Velocidade de uso de ferramentas</Value>
     </Record>
     <Record>
       <Key>TradePenalty</Key>
-      <Value>Penalidade de Troca</Value>
+      <Value>Penalidade de negociação</Value>
     </Record>
     <Record>
       <Key>DeviceIsNotOperable</Key>
-      <Value>O dispositivo não pode ser operado</Value>
+      <Value>O dispositivo não está operacional</Value>
     </Record>
     <Record>
       <Key>PumpIntoPad</Key>
@@ -29542,11 +29542,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Inward</Key>
-      <Value>Entrada</Value>
+      <Value>Para dentro</Value>
     </Record>
     <Record>
       <Key>Outward</Key>
-      <Value>Saída</Value>
+      <Value>Para fora</Value>
     </Record>
     <Record>
       <Key>Warning</Key>
@@ -29586,15 +29586,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RobotHasNoBattery</Key>
-      <Value>Falta de bateria</Value>
+      <Value>Bateria ausente</Value>
     </Record>
     <Record>
       <Key>RobotBatteryNoCharge</Key>
-      <Value>A bateria não possui carga</Value>
+      <Value>A bateria está sem carga</Value>
     </Record>
     <Record>
       <Key>PartialPressureN2O</Key>
-      <Value>Pressão Parcial do Óxido Nitroso</Value>
+      <Value>Pressão Parcial de Óxido Nitroso</Value>
     </Record>
     <Record>
       <Key>Refreshed</Key>
@@ -29610,7 +29610,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>UnviableEggNotice</Key>
-      <Value>O {LOCAL:Name} não é viável</Value>
+      <Value>O {LOCAL:Name} é inviável</Value>
     </Record>
     <Record>
       <Key>WillHatchInto</Key>
@@ -29618,7 +29618,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ViableEggNotice</Key>
-      <Value>A incubação requer {LOCAL:MinTemp} a {LOCAL:MaxTemp}</Value>
+      <Value>A incubação requer {LOCAL:MinTemp} até {LOCAL:MaxTemp}</Value>
     </Record>
     <Record>
       <Key>PlayerStateMoodDecreasing</Key>
@@ -29646,7 +29646,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
 	<Record>
       <Key>FertilizedEggProcess</Key>
-      <Value>O {LOCAL:Thing} é {LOCAL:Percent} para eclosão</Value>
+      <Value>O {LOCAL:Thing} está em {LOCAL:Percent} para eclodir</Value>
     </Record>
     <Record>
       <Key>ThisDeviceNotOpen</Key>
