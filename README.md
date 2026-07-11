@@ -1,4 +1,6 @@
-Olá, comunidade Stationeers! Change Log v0.2.6403.27689 02/07/2026
+Data 02/07/2026 Change Log v0.2.6403.27689
+
+Olá, comunidade Stationeers!
 
 Estou disponibilizando os cinco arquivos traduzidos para o português do Brasil aqui no GitHub, com o objetivo de ajudar os jogadores que preferem jogar no nosso idioma e facilitar a experiência no jogo.
 
