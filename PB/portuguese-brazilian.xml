@@ -1514,7 +1514,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
-      <Value>Kit (Tanque)</Value>
+      <Value>Kit (Tanque para Gases)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -1624,7 +1624,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeMeter</Key>
-      <Value>Kit (Medidor de Tubo)</Value>
+      <Value>Kit (Medidor de Pressão para Tubo de Gás)</Value>
       <Description>Este kit cria um {THING:StructurePipeMeter}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1649,7 +1649,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeVolumePump</Key>
-      <Value>Kit (Bomba Volumétrica)</Value>
+      <Value>Kit (Bomba Volumétrica para Gases)</Value>
       <Description>Este kit cria uma {THING:StructureVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2405,7 +2405,7 @@ Exibindo a pressão interna das redes de tubos, ele também mostra a temperatura
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeMeter</Key>
-      <Value>Medidor de Tubo</Value>
+      <Value>Medidor de Pressão para Tubo de Gás</Value>
       <Description>Embora o programa Stationeers até agora tenha inspirado pouco em termos de poesia clássica, o seguinte haikai foi encontrado gravado, ironicamente, em um pedaço de tubo destruído em Vulcan:
 "Humilde medidor de tubulação
 diz a verdade, transmite a
@@ -2532,7 +2532,7 @@ Todas as conexões de tubos devem estar corretamente ligadas; caso contrário, o
 	</RecordThing>
     <RecordThing>
       <Key>StructureTankSmallInLine</Key>
-      <Value>Tanque Pequeno</Value>				  
+      <Value>Tanque Pequeno para Gases</Value>				  
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallAir</Key>
@@ -2556,7 +2556,7 @@ Todas as conexões de tubos devem estar corretamente ligadas; caso contrário, o
     </RecordThing>
     <RecordThing>
       <Key>StructureVolumePump</Key>
-      <Value>Bomba Volumétrica</Value>
+      <Value>Bomba Volumétrica para Gases</Value>
       <Description>A Bomba Volumétrica bombeia gases transportáveis. Ela também separa as redes de tubos em sistemas independentes.</Description>
     </RecordThing>
     <RecordThing>
@@ -3215,7 +3215,7 @@ Observe que os transformadores também atuam como isoladores de dados, impedindo
     </RecordThing>
     <RecordThing>
       <Key>StructureTankBigInLine</Key>
-      <Value>Tanque Grande</Value>	   
+      <Value>Tanque Grande para Gases</Value>	   
     </RecordThing>
     <RecordThing>
       <Key>ItemPotato</Key>
@@ -5991,12 +5991,12 @@ Para usar em si mesmo: segure a fita adesiva na mão ativa e mantenha pressionad
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
-      <Value>Kit (Medidor de Tubulação de Líquido)</Value>
+      <Value>Kit (Medidor de Pressão para Tubo de Líquido)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPipeMeter</Key>
-      <Value>Medidor de Tubulação de Líquido</Value>
+      <Value>Medidor de Pressão para Tubo de Líquido</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7032,12 +7032,12 @@ Altamente sensível à temperatura, o nitrice começa a derreter assim que é mi
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeRadiator</Key>
-      <Value>Kit (Radiador de Tubulação)</Value>
+      <Value>Kit (Radiador de Tubulação para Gases)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeRadiatorLiquid</Key>
-      <Value>Kit (Radiador de Tubulação de Líquido)</Value>
+      <Value>Kit (Radiador de Tubulação para Líquido)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
