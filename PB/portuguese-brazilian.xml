@@ -1644,7 +1644,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeValve</Key>
-      <Value>Kit (Válvula de Tubo)</Value>
+      <Value>Kit (Válvula para Tubulação de Gás)</Value>
       <Description>Este kit cria uma {THING:StructureValve}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1654,7 +1654,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeValve</Key>
-      <Value>Kit (Válvulas de Tubo para Líquidos)</Value>
+      <Value>Kit (Válvula para Tubulação de Líquidos)</Value>
       <Description>Este kit cria uma {THING:StructureLiquidValve}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2413,7 +2413,7 @@ pressão em qualquer tubulação"</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiator</Key>
-      <Value>Radiador para Tubulação</Value>
+      <Value>Radiador para Tubulação de Gás</Value>
       <Description>Um trocador de calor simples, os radiadores de tubo podem ser instalados em tubulações para dissipar ou absorver calor, dependendo da temperatura do ambiente. Se o ar ao redor estiver mais quente, o calor será transferido para o gás dentro da rede de tubos — e vice-versa, se estiver mais frio. No vácuo, o calor será irradiado.
 A velocidade da troca de calor dependerá do tipo de gás envolvido. A adição de múltiplos radiadores acelera a transferência térmica.</Description>
     </RecordThing>
@@ -2552,7 +2552,7 @@ Todas as conexões de tubos devem estar corretamente ligadas; caso contrário, o
     </RecordThing>
     <RecordThing>
       <Key>StructureValve</Key>
-      <Value>Válvula de Gás</Value>
+      <Value>Válvula para Tubo de Gás</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureVolumePump</Key>
@@ -2561,7 +2561,7 @@ Todas as conexões de tubos devem estar corretamente ligadas; caso contrário, o
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidValve</Key>
-      <Value>Válvula de Líquidos</Value>
+      <Value>Válvula para Líquidos</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallCooler</Key>
@@ -6613,12 +6613,12 @@ Observação: a Cannifier exibirá um erro no interruptor de ativação se você
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeHeater</Key>
-      <Value>Kit (Aquecedor de Tubulação - Líquido)</Value>
+      <Value>Kit (Aquecedor de Tubulação de Líquido)</Value>
       <Description>Cria um {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeHeater</Key>
-      <Value>Aquecedor de Tubulação Líquido</Value>
+      <Value>Aquecedor Tubulação de Líquido</Value>
       <Description>Adiciona 1000 joules de calor por ciclo ao conteúdo da sua rede de tubulação.</Description>
     </RecordThing>
     <RecordThing>
@@ -7002,7 +7002,7 @@ Altamente sensível à temperatura, o nitrice começa a derreter assim que é mi
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
-      <Value>Radiador de Tubulação</Value>
+      <Value>Radiador para Tubulação de Gás</Value>
       <Description>Um radiador montado em tubo, otimizado para dissipar calor no vácuo.</Description>
     </RecordThing>
     <RecordThing>
@@ -7032,7 +7032,7 @@ Altamente sensível à temperatura, o nitrice começa a derreter assim que é mi
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeRadiator</Key>
-      <Value>Kit (Radiador de Tubulação para Gases)</Value>
+      <Value>Kit (Radiador para Tubulação de Gás)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7672,7 +7672,7 @@ Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem expl
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankLiquid1x2</Key>
-      <Value>Tanque em Linha de Líquido</Value>
+      <Value>Tanque em Linha para Líquido</Value>
       <Description>Um pequeno tanque de expansão que aumenta o volume de uma rede de tubulação.</Description>
     </RecordThing>
     <RecordThing>
@@ -10754,7 +10754,7 @@ O que o Combustor produz depende inteiramente do que é inserido nele. Veja a p�
     </Record>
     <Record>
       <Key>Flush</Key>
-      <Value>Descarga</Value>
+      <Value>Purgar o Ar</Value>
     </Record>
     <Record>
       <Key>Battery</Key>
@@ -24964,7 +24964,7 @@ Agradecemos sua compreensão e mal podemos esperar para que você experimente as
     </Record>
     <Record>
       <Key>SuitContextAirConState</Key>
-      <Value>A/C {LOCAL:IsTurnedOn}</Value>
+      <Value>Ar Condicionado {LOCAL:IsTurnedOn}</Value>
     </Record>
     <Record>
       <Key>SuitContextAirPumpState</Key>
@@ -25269,7 +25269,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AddSeedsToSlot</Key>
-      <Value>Isso adicionará uma {0} ao recipiente</Value>
+      <Value>Isso adicionará {0} ao recipiente</Value>
     </Record>
     <Record>
       <Key>ClearFertiliser</Key>
@@ -26181,91 +26181,91 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingMature</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;não está crescendo&lt;/color&gt; e nunca produzirá frutos</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;não está crescendo&lt;/color&gt; e nunca produzirá frutos</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingMature</Key>
-      <Value>A {LOCAL:Plant} está crescendo muito pouco em direção à frutificação</Value>
+      <Value>{LOCAL:Plant} está crescendo muito pouco em direção à frutificação</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlyMature</Key>
-      <Value>A {LOCAL:Plant} está crescendo mal em direção à frutificação</Value>
+      <Value>{LOCAL:Plant} está crescendo mal em direção à frutificação</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelyMature</Key>
-      <Value>A {LOCAL:Plant} está crescendo moderadamente bem em direção à frutificação</Value>
+      <Value>{LOCAL:Plant} está crescendo moderadamente bem em direção à frutificação</Value>
     </Record>
     <Record>
       <Key>PlantThrivingMature</Key>
-      <Value>A {LOCAL:Plant} está prosperando em direção à frutificação</Value>
+      <Value>{LOCAL:Plant} está prosperando em direção à frutificação</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingSeed</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;não está crescendo&lt;/color&gt; e nunca produzirá sementes</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;não está crescendo&lt;/color&gt; e nunca produzirá sementes</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingSeed</Key>
-      <Value>A {LOCAL:Plant} está crescendo muito pouco em direção à produção de sementes</Value>
+      <Value>{LOCAL:Plant} está crescendo muito pouco em direção à produção de sementes</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlySeed</Key>
-      <Value>A {LOCAL:Plant} está crescendo mal em direção à produção de sementes</Value>
+      <Value>{LOCAL:Plant} está crescendo mal em direção à produção de sementes</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelySeed</Key>
-      <Value>A {LOCAL:Plant} está crescendo moderadamente bem em direção à produção de sementes</Value>
+      <Value>{LOCAL:Plant} está crescendo moderadamente bem em direção à produção de sementes</Value>
     </Record>
     <Record>
       <Key>PlantThrivingSeed</Key>
-      <Value>A {LOCAL:Plant} está prosperando em direção à produção de sementes</Value>
+      <Value>{LOCAL:Plant} está prosperando em direção à produção de sementes</Value>
     </Record>
     <Record>
       <Key>PlantNotEnoughLight</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;não está recebendo a quantidade correta de luz por dia&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;não está recebendo a quantidade correta de luz por dia&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooHot</Key>
-      <Value>A atmosfera da {LOCAL:Plant} &lt;color=red&gt;está muito quente&lt;/color&gt;</Value>
+      <Value>A atmosfera para {LOCAL:Plant} &lt;color=red&gt;está muito quente&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooCold</Key>
-      <Value>A atmosfera da {LOCAL:Plant} &lt;color=red&gt;está muito fria&lt;/color&gt;</Value>
+      <Value>A atmosfera para {LOCAL:Plant} &lt;color=red&gt;está muito fria&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterTooHot</Key>
-      <Value>A água da {LOCAL:Plant} &lt;color=red&gt;está muito quente&lt;/color&gt;</Value>
+      <Value>A água para {LOCAL:Plant} &lt;color=red&gt;está muito quente&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterTooCold</Key>
-      <Value>A água da {LOCAL:Plant} &lt;color=red&gt;está muito fria&lt;/color&gt;</Value>
+      <Value>A água para {LOCAL:Plant} &lt;color=red&gt;está muito fria&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterNeeds</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;precisa de água&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;precisa de água&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantNotCorrectAtmosphere</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;não possui a composição correta de gases na atmosfera&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;não possui a composição correta de gases na atmosfera&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsPollutedByAir</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;está sendo poluída pelo ar&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;está sendo poluída pelo ar&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsReceivingLight</Key>
-      <Value>A {LOCAL:Plant} está recebendo luz</Value>
+      <Value>{LOCAL:Plant} está recebendo luz</Value>
     </Record>
     <Record>
       <Key>PlantIsInDarkness</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;está na escuridão&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;está na escuridão&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsInLowPressureEnvironment</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;está em um ambiente de baixa pressão&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;está em um ambiente de baixa pressão&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsInHighPressureEnvironment</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;está em um ambiente de alta pressão&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;está em um ambiente de alta pressão&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantCreate</Key>
@@ -26757,7 +26757,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ItemInSlotValue</Key>
-      <Value>O {LOCAL:Thing} está em &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} está em &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DoorIsWelded</Key>
@@ -27673,7 +27673,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CantPaintSameColour</Key>
-      <Value>O(A) {LOCAL:Thing} já está pintado(a) com a cor {LOCAL:Color}</Value>
+      <Value>{LOCAL:Thing} já está pintado(a) com a cor {LOCAL:Color}</Value>
     </Record>
     <Record>
       <Key>AtmosphereVolume</Key>
@@ -27725,7 +27725,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingIsState</Key>
-      <Value>O(A) {LOCAL:Thing} está {LOCAL:State}</Value>
+      <Value>{LOCAL:Thing} está {LOCAL:State}</Value>
     </Record>
     <Record>
       <Key>LaunchTowerAlreadyExists</Key>
@@ -27837,7 +27837,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TradeItemContains</Key>
-      <Value>O(A) {LOCAL:OrePrefab} contém o seguinte</Value>
+      <Value>{LOCAL:OrePrefab} contém o seguinte</Value>
     </Record>
     <Record>
       <Key>TradeRatio</Key>
