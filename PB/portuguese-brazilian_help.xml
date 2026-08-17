@@ -2,7 +2,7 @@
   <Name>Português (Brasil)</Name>
   <Code>PB</Code>
   <HelpPage>
-  <!--Tradução Marcelo 02/07/2026 Registro de alterações v0.2.6403.27689-->  
+  <!--Tradução Marcelo 12/08/2026 Registro de alterações v0.2.6428.27798-->  
 <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                 MASTER PAGES            |
@@ -698,7 +698,13 @@ A água pode ser obtida de várias formas. Pelo menos uma {THING:ItemWaterBottle
 A taxa de sede pode ser ajustada no menu principal de configurações, alterando o controle deslizante de Taxa de Fome/Hidratação.
 	  </Text>
     </StationpediaPage>
-
+	<StationpediaPage>
+	  <Key>SanitationPage</Key>
+	  <Title>Higiene</Title>
+	  <DisplayFilter>Guides</DisplayFilter>
+	  <Text>Com o tempo, satisfazer a {LINK:HydrationPage;sede} e a {LINK:HungerPage;fome} dos Stationeers fará com que eles precisem fazer suas necessidades. A {LINK:ODA;ODA} recomenda que os Stationeers instalem um {THING:StructureToiletModern} em sua base após o pouso, que requer uma atmosfera e {GAS:Water} para funcionar. Isso produzirá {GAS:PollutedWater}, que pode ser reciclada usando um {THING:StructureWaterPurifier} e então utilizada para outras finalidades, como a {LINK:FarmingPage;agricultura} ou a {LINK:HydrationPage;hidratação}. O {THING:ItemWasteBagEmpty} pode ser usado como uma alternativa portátil ao vaso sanitário, mas seu conteúdo não pode ser recuperado.
+{LIST_OF_SANITATION}</Text>
+	</StationpediaPage>
     <StationpediaPage>
       <Key>EVAPage</Key>
       <Title>Trajes EVA</Title>
