@@ -1,4 +1,5 @@
 Data 12/08/2026 Atualização Change Log v0.2.6428.27798
+Atualização sobre a Linha de Transmissão 12/08/2026
 
 Olá, comunidade Stationeers!
 
