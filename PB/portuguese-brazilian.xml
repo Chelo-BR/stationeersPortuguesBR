@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 03/07/2026 Registro de alterações v0.2.6403.27689-->
+  <Code>PB</Code>  <!--Tradução Marcelo 12/08/2026 Registro de alterações v0.2.6420.27780-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -1838,7 +1838,14 @@ Pode não ser elegante, mas {THING:ItemOxite} e {THING:ItemVolatiles} podem ser 
       <Value>Cinto de Ferramentas</Value>
       <Description>Se há um item que representa a vida de um {LINK:Stationeers;Stationeer} acima de todos os outros, é o humilde cinto de ferramentas (Nota do editor: uma pesquisa recente da {LINK:ODA;ODA} sobre equipamentos icônicos dos Stationeers também destacou, com grande aprovação, as ruínas fumegantes e tóxicas de um {THING:StructureFurnace} superpressurizado espalhado entre os destroços carbonizados da sua última base).  
 Projetado para atender aos mais estritos — ou quase — padrões de segurança da ODA, o cinto possui oito compartimentos que armazenam uma única coisa: ferramentas, e {THING:ItemCableCoil}. Não deve ser confundido com o {THING:ItemMiningBelt}.</Description>
-    </RecordThing>
+	</RecordThing>			  
+	<RecordThing>
+	  <Key>ItemCableToolBelt</Key>
+	  <Value>Cinto Elétrico</Value>
+	  <Description>Um Cinto com dois espaços para ferramentas e seis espaços restritos a {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} e {THING:ItemCableCoilSuperHeavy}.
+
+Quando equipado, o Cinto recarrega a {THING:ItemCableGun} com uma bobina compatível assim que a bobina da própria ferramenta se esgota, e recolhe os cabos desmontados que não couberem em suas mãos.</Description>
+	</RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
       <Value>Minério Urânio</Value>
@@ -7458,7 +7465,7 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryMedium</Key>
-      <Value>Bateria Média</Value>
+      <Value>Bateria Média para Foguete</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7558,7 +7565,7 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureBatterySmall</Key>
-      <Value>Bateria Auxiliar de Foguete</Value>
+      <Value>Bateria Auxiliar para Foguete</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8669,7 +8676,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ApplianceTabletDock</Key>
-      <Value>Doca de Tablet</Value>
+      <Value>Base para Tablet</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -10160,6 +10167,73 @@ O que o Combustor produz depende inteiramente do que é inserido nele. Veja a p�
       <Value>Painel Solar (1x5)</Value>
       <Description />
     </RecordThing>
+	<RecordThing>
+	  <Key>ItemKitPowerPylon</Key>
+	  <Value>Kit (Poste de Energia)</Value>
+	<Description />
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructurePowerPylon</Key>
+	  <Value>Poste de Energia</Value>
+	<Description>
+	Os postes de energia podem ser usados para transmitir energia e dados a longas distâncias. Embora tecnicamente não sejam cabos, os postes interligam duas redes de cabos, formando uma única rede.
+
+Monte-os a partir do Kit de Postes de Energia e conecte-os com Cabo Super-Pesado, com até 40 metros de comprimento por vão. Um Terminal de Poste de Energia em cada extremidade conecta a linha à rede de cabos da sua base. Um alicate de corte desconecta a conexão e devolve o cabo para você.
+	</Description>
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructurePowerPylonInput</Key>
+	  <Value>Entrada do Poste de Energia</Value>
+	<Description />
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructurePowerPylonOutput</Key>
+	  <Value>Saída do Poste de Energia</Value>
+	<Description />
+	</RecordThing>
+	<RecordThing>
+	  <Key>ItemCableGun</Key>
+	  <Value>Instalador de Cabos Elétricos</Value>
+	  <Description>Crie facilmente longos trechos retos de cabos elétricos.
+
+Funciona com {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} e {THING:ItemCableCoilSuperHeavy}. O Instalador de Cabos utilizará, sempre que possível, os trechos de cabo da variante de cabo longo.
+
+O Instalador de Cabos não pode unir seus cabos aos cabos que já estejam instalados.
+
+Um trecho só pode ter o comprimento permitido pela bobina carregada no instalador; as bobinas no {THING:ItemCableToolBelt} não aumentam esse comprimento. Quando a bobina carregada se esgota, uma bobina compatível do cinto é carregada automaticamente no instalador.</Description>
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructureCableStraightH3</Key>
+	  <Value>Cabo Pesado Reto 3 unidades</Value>
+	  <Description />
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructureCableStraightH3Burnt</Key>
+	  <Value>Cabo Pesado Queimado Reto 3 unidades</Value>
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructureCableStraightH5</Key>
+	  <Value>Cabo Pesado Reto 5 unidades</Value>
+	  <Description />
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructureCableStraightH5Burnt</Key>
+	  <Value>Cabo Pesado Queimado Reto 5 unidades</Value>
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructureCableStraightH10</Key>
+	  <Value>Cabo Pesado Reto 10 unidades</Value>
+	  <Description />
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructureCableStraightH10Burnt</Key>
+	  <Value>Cabo Pesado Queimado Reto 10 unidades</Value>
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructurePowerPylonTerminus</Key>
+	  <Value>Terminal do Poste de Energia</Value>
+	  <Description />
+	</RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -10227,7 +10301,11 @@ O que o Combustor produz depende inteiramente do que é inserido nele. Veja a p�
       <Value>Bateria</Value>
 	</Record>
     <Record>
-      <Key>Egg</Key>
+	  <Key>CableAmmo</Key>
+	  <Value>Carga de Cabo</Value>
+	</Record>
+    <Record>
+	<Key>Egg</Key>
       <Value>Ovo</Value>
     </Record>
     <Record>
@@ -22253,7 +22331,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Key>SpawnDataVolatilesCanister</Key>
       <Value>Cilindro de Voláteis</Value>
     </Record>
-    <Record>
+	<Record>
+	  <Key>SpawnDataMethaneCanister</Key>
+	  <Value>Cilindro de Metano</Value>
+	</Record>
+	<Record>
       <Key>SpawnDataHydroponicsSupplies</Key>
       <Value>Suprimentos de Hidroponia</Value>
     </Record>
@@ -22787,7 +22869,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SellDataBulkHydrazine</Key>
-      <Value>Hidrazina a Grane</Value>
+      <Value>Hidrazina a Granel</Value>
     </Record>
     <Record>
       <Key>SellDataSteam</Key>
@@ -22801,7 +22883,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Key>SellDataHydrazineCanister</Key>
       <Value>Cilindro de Hidrazina</Value>
     </Record>
-    <Record>		
+    <Record>
       <Key>SellDataFuelCanister</Key>
       <Value>Cilindro de Combustível</Value>
     </Record>
@@ -24898,7 +24980,7 @@ Agradecemos sua compreensão e mal podemos esperar para que você experimente as
 	</Record>
 	<Record>
 	  <Key>Nitrice</Key>
-	  <Value>Nitrita</Value>
+	  <Value>Nitrice</Value>
 	</Record>
 	<Record>
 	  <Key>Volatiles</Key>
