@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 28/08/2026 Registro de alterações v0.2.6420.27780-->
+  <Code>PB</Code>  <!--Tradução Marcelo 18/09/2026 Registro de alterações v0.2.6420.27780-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -3039,8 +3039,8 @@ Altamente sensível à temperatura, o oxite começa a derreter assim que é mine
     </RecordThing>
     <RecordThing>
       <Key>CartridgeTracker</Key>
-      <Value>Cartucho Rastreador</Value>
-	  <Description>O Cartucho de Rastreador permitirá que o tablet indique a direção e forneça a distância até um Localizador fixo ou um Localizador portátil que esteja ligado ou até outro jogador. Usando a roda de rolagem do mouse, será possível selecionar diferentes alvos. Este cartucho também exibe sua localização atual em coordenadas X, Y e Z.</Description>
+      <Value>Cartucho Localizador</Value>
+	  <Description>O Cartucho de Localização permitirá que o tablet indique a direção e forneça a distância até um Localizador fixo ou um Localizador portátil que esteja ligado ou até outro jogador. Usando a roda de rolagem do mouse, será possível selecionar diferentes alvos. Este cartucho também exibe sua localização atual em coordenadas X, Y e Z.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasSensor</Key>
@@ -5311,7 +5311,7 @@ Com um {THING:ItemIntegratedCircuit10} no {SLOT:ProgrammableChip}, é possível 
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryChargerSmall</Key>
-      <Value>Carregador de Bateria Pequeno</Value>
+      <Value>Kit (Carregador de Bateria Pequeno)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlat</Key>
@@ -7617,7 +7617,7 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureBatterySmall</Key>
-      <Value>Bateria Auxiliar para Foguete</Value>
+      <Value>Bateria pequena para Foguete</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8139,7 +8139,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicRocketUplink</Key>
-      <Value>Lógica de Uplink</Value>
+      <Value>Uplink Lógico do Foguete</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8204,7 +8204,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicRocketDownlink</Key>
-      <Value>Lógica de Downlink de Foguete</Value>
+      <Value>Downlink Lógico do Foguete</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8249,7 +8249,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHead</Key>
-      <Value>Cabeçote de Broca de Mineração Básico</Value>
+      <Value>Broca de Mineração Básica</Value>
       <Description>Cabeçote de broca substituível para {THING:StructureRocketMiner}</Description>
     </RecordThing>
     <RecordThing>
@@ -8259,7 +8259,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLaunchMount</Key>
-      <Value>Kit (Suporte de Lançamento)</Value>
+      <Value>Kit (Base de Lançamento do Foguete)</Value>
 	 <Description />
     </RecordThing>
     <RecordThing>
@@ -8293,7 +8293,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketLiquidFuelTank</Key>
-      <Value>Kit (Tanque de Combustível Líquido do Foguete)</Value>
+      <Value>Kit (Tanque de Combustível de Líquido para Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8308,7 +8308,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLaunchTower</Key>
-      <Value>Kit (Torre de Lançamento de Foguete)</Value>
+      <Value>Kit (Torre de Umbilicais para Lançamento do Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8318,12 +8318,12 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGovernedGasRocketEngine</Key>
-      <Value>Kit (Motor de Foguete a Gás com Bomba)</Value>
+      <Value>Kit (Motor do Foguete a Gás com Bomba)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGovernedLiquidRocketEngine</Key>
-      <Value>Kit (Motor de Foguete a Líquido com Bomba)</Value>
+      <Value>Kit (Motor do Foguete a Líquido com Bomba)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8348,7 +8348,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketGasFuelTank</Key>
-      <Value>Kit (Tanque de Combustível de Gás de Foguete)</Value>
+      <Value>Kit (Tanque de Combustível de Gás para Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8373,7 +8373,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChuteUmbilical</Key>
-      <Value>Kit (Esteira Umbilical)</Value>
+      <Value>Kit (Umbilical da Esteira)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8388,7 +8388,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPumpedLiquidEngine</Key>
-      <Value>Kit (Motor a Líquido com Bomba)</Value>
+      <Value>Kit (Motor do Foguete a Líquido com Bomba)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8398,7 +8398,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedGasEngine</Key>
-      <Value>Kit (Motor a Gás por Pressão)</Value>
+      <Value>Kit (Motor do Foguete a Gás por Pressão)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8408,7 +8408,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngine</Key>
-      <Value>Kit (Motor a Líquido por Pressão)</Value>
+      <Value>Kit (Motor do Foguete a Líquido por Pressão)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8418,7 +8418,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedGasEngineHeavy</Key>
-      <Value>Kit (Motor a gás de alta pressão)</Value>
+      <Value>Kit (Motor do Foguete a gás de alta pressão)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8428,7 +8428,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
-      <Value>Kit (Motor Líquido de Alta Pressão)</Value>
+      <Value>Kit (Motor do foguete a Líquido de Alta Pressão)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8698,7 +8698,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketScanningHead</Key>
-      <Value>Cabeçote de Scanner do Foguet</Value>
+      <Value>Cabeçote de Scanner do Foguete</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9989,22 +9989,22 @@ O processo de fermentação produz uma pequena quantidade de água poluída como
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeE1</Key>
-      <Value>Suporte do Motor (Tipo E1)</Value>
+      <Value>Suporte do Motor Tipo E1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeE2</Key>
-      <Value>Suporte do Motor (Tipo E2)</Value>		   
+      <Value>Suporte do Motor Tipo E2</Value>		   
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeE1</Key>
-      <Value>Carenagem (Tipo E1)</Value>
+      <Value>Carenagem Tipo E1</Value>
       <Description />
     </RecordThing>		  
    <RecordThing>
       <Key>StructureFuselageTypeE1</Key>
-      <Value>Fuselagem (Tipo E1)</Value>
+      <Value>Fuselagem Tipo E1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -10039,7 +10039,7 @@ O processo de fermentação produz uma pequena quantidade de água poluída como
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewModuleFuselage</Key>
-      <Value>Fuselagem do Módulo de Tripulação (Tipo C)</Value>
+      <Value>Fuselagem do Módulo de Tripulação Tipo C</Value>
       <Description>Compartimento de tripulação aerodinâmico para foguetes. Embarque interagindo com o módulo.</Description>
     </RecordThing>
     <RecordThing>
@@ -10099,7 +10099,7 @@ O processo de fermentação produz uma pequena quantidade de água poluída como
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewModuleFuselageSimple</Key>
-      <Value>Fuselagem do Módulo de Tripulação (Tipo A)</Value>
+      <Value>Fuselagem do Módulo de Tripulação Tipo A</Value>
       <Description>Compartimento de tripulação compacto para foguetes. Embarque interagindo com o módulo.</Description>
     </RecordThing>
     <RecordThing>
@@ -10109,7 +10109,7 @@ O processo de fermentação produz uma pequena quantidade de água poluída como
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicRocketUplinkCompact</Key>
-      <Value>Uplink Lógico (Compacto)</Value>
+      <Value>Uplink Lógico do Foguete (Compacto)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
